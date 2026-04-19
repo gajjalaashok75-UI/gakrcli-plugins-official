@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gakrcli.com/schemas/marketplace.schema.json",
+  "title": "GAKRCLI Marketplace Schema",
+  "description": "JSON Schema for GAKRCLI plugin marketplace configuration",
+  "type": "object",
+  "required": ["name", "description", "plugins"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this JSON schema"
+    },
+    "name": {
+      "type": "string",
+      "description": "Marketplace identifier",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of the marketplace"
+    },
+    "owner": {
+      "type": "object",
+      "description": "Marketplace owner information",
+      "properties": {
+        "name": {"type": "string"},
+        "email": {"type": "string", "format": "email"},
+        "url": {"type": "string", "format": "uri"}
+      }
+    },
+    "plugins": {
+      "type": "array",
+      "description": "Array of plugin definitions",
+      "items": {"$ref": "#/definitions/plugin"}
+    }
+  },
+  "definitions": {
+    "plugin": {
+      "type": "object",
+      "required": ["name", "description", "source"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Unique plugin identifier",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "description": {
+          "type": "string",
+          "description": "Plugin description",
+          "minLength": 10,
+          "maxLength": 1000
+        },
+        "version": {
+          "type": "string",
+          "description": "Plugin version"
+        },
+        "category": {
+          "type": "string",
+          "description": "Plugin category",
+          "enum": [
+            "development",
+            "productivity",
+            "security",
+            "database",
+            "deployment",
+            "monitoring",
+            "design",
+            "learning",
+            "location",
+            "testing",
+            "documentation"
+          ]
+        },
+        "keywords": {
+          "type": "array",
+          "description": "Search keywords",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "author": {
+          "type": "object",
+          "description": "Plugin author information",
+          "properties": {
+            "name": {"type": "string"},
+            "email": {"type": "string", "format": "email"},
+            "url": {"type": "string", "format": "uri"}
+          }
+        },
+        "source": {
+          "oneOf": [
+            {"type": "string", "pattern": "^\\./.*"},
+            {
+              "type": "object",
+              "required": ["source", "url"],
+              "properties": {
+                "source": {"type": "string", "enum": ["url", "git-subdir"]},
+                "url": {"type": "string", "format": "uri"},
+                "sha": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+                "path": {"type": "string"},
+                "ref": {"type": "string"}
+              }
+            }
+          ]
+        },
+        "homepage": {
+          "type": "string",
+          "format": "uri",
+          "description": "Plugin homepage URL"
+        },
+        "tags": {
+          "type": "array",
+          "description": "Additional tags",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "strict": {
+          "type": "boolean",
+          "description": "Strict mode flag"
+        },
+        "lspServers": {
+          "type": "object",
+          "description": "LSP server configurations"
+        }
+      }
+    }
+  }
+}
