@@ -1,33 +1,79 @@
-# Claude Code Plugins Directory
+# GAKRCLI Plugins Official
 
-A curated directory of high-quality plugins for Claude Code.
+A curated directory of high-quality plugins for GAKRCLI - the next-generation AI-powered development environment.
 
-> **⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.
+> **⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Always review plugin source code and verify the publisher. GAKRCLI does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.
 
-## Structure
+## 📊 Marketplace Stats
 
-- **`/plugins`** - Internal plugins developed and maintained by Anthropic
+- **144 Plugins** available
+- **20 Internal Plugins** - Developed and maintained by GAKRCLI team
+- **15 External Plugins** - Community and partner contributions
+- **JSON Schema Validated** - All plugins follow strict validation rules
+
+## 📁 Repository Structure
+
+- **`/plugins`** - Internal plugins developed and maintained by GAKRCLI team
 - **`/external_plugins`** - Third-party plugins from partners and the community
+- **`/schemas`** - JSON Schema for marketplace validation
+- **`.gakrcli-plugin/`** - Marketplace configuration and plugin registry
 
-## Installation
+## 🚀 Installation
 
-Plugins can be installed directly from this marketplace via Claude Code's plugin system.
+Plugins can be installed directly from this marketplace via GAKRCLI's plugin system.
 
-To install, run `/plugin install {plugin-name}@gakrcli-plugins-official`
+### Install via Command
+```bash
+/plugin install {plugin-name}@gakrcli-plugins-official
+```
 
-or browse for the plugin in `/plugin > Discover`
+### Install via UI
+Browse and install plugins through the GAKRCLI interface:
+```
+/plugin > Discover > Search for plugin
+```
 
-## Contributing
+### Popular Plugins
+
+- **agent-sdk-dev** - Development kit for working with the GAKRCLI Agent SDK
+- **code-review** - Automated code review with specialized agents
+- **feature-dev** - Comprehensive feature development workflow
+- **frontend-design** - Create distinctive, production-grade frontend interfaces
+- **github** - Official GitHub MCP server for repository management
+- **mcp-server-dev** - Build and develop MCP servers and apps
+
+## 🤝 Contributing
+
+We welcome contributions from the community! 
 
 ### Internal Plugins
 
-Internal plugins are developed by Anthropic team members. See `/plugins/example-plugin` for a reference implementation.
+Internal plugins are developed by GAKRCLI team members. See `/plugins/example-plugin` for a reference implementation.
 
 ### External Plugins
 
-Third-party partners can submit plugins for inclusion in the marketplace. External plugins must meet quality and security standards for approval. To submit a new plugin, use the [plugin directory submission form](https://clau.de/plugin-directory-submission).
+Third-party developers can submit plugins for inclusion in the marketplace. External plugins must meet quality and security standards for approval.
 
-## Plugin Structure
+**Submission Requirements:**
+- Follow the standard plugin structure
+- Include comprehensive documentation
+- Pass JSON schema validation
+- Provide clear installation instructions
+- Include proper licensing information
+
+To submit a plugin:
+1. Fork this repository
+2. Add your plugin to `/external_plugins/{your-plugin-name}`
+3. Update `.gakrcli-plugin/marketplace.json`
+4. Submit a pull request
+
+### Development Resources
+
+- **Plugin Development Guide**: `/plugins/plugin-dev`
+- **Example Plugin**: `/plugins/example-plugin`
+- **Schema Reference**: `/schemas/gakrcli-marketplace.schema.json`
+
+## 📦 Plugin Structure
 
 Each plugin follows a standard structure:
 
@@ -39,13 +85,74 @@ plugin-name/
 ├── commands/            # Slash commands (optional)
 ├── agents/              # Agent definitions (optional)
 ├── skills/              # Skill definitions (optional)
-└── README.md            # Documentation
+├── hooks/               # Event hooks (optional)
+├── LICENSE              # License file (required)
+└── README.md            # Documentation (required)
 ```
 
-## License
+### Required Files
 
-Please see each linked plugin for the relevant LICENSE file.
+- **`.gakrcli-plugin/plugin.json`** - Plugin metadata and configuration
+- **`README.md`** - Plugin documentation
+- **`LICENSE`** - License information
 
-## Documentation
+### Optional Components
 
-For more information on developing Claude Code plugins, see the [official documentation](https://code.claude.com/docs/en/plugins).
+- **`commands/`** - Custom slash commands
+- **`agents/`** - Specialized AI agents
+- **`skills/`** - Reusable skill definitions
+- **`hooks/`** - Event-driven automation
+- **`.mcp.json`** - MCP server integration
+
+## 📋 Marketplace Schema
+
+This repository uses a JSON Schema to validate the marketplace configuration:
+
+- **Schema Location**: `schemas/gakrcli-marketplace.schema.json`
+- **Marketplace Config**: `.gakrcli-plugin/marketplace.json`
+
+The schema validates:
+- Plugin metadata (name, description, version)
+- Source types (local, git URL, git subdirectory)
+- Categories and tags
+- Author information
+- LSP server configurations
+
+## 🔍 Plugin Categories
+
+- **Development** - Development tools and workflows
+- **Productivity** - Productivity enhancers and utilities
+- **Security** - Security scanning and analysis
+- **Database** - Database management and tools
+- **Deployment** - Deployment and infrastructure
+- **Monitoring** - Monitoring and observability
+- **Design** - Design and UI tools
+- **Learning** - Educational and learning resources
+
+## 📚 Documentation
+
+- **Plugin Development**: See `/plugins/plugin-dev` for comprehensive guides
+- **MCP Integration**: See `/plugins/mcp-server-dev` for MCP server development
+- **Skill Creation**: See `/plugins/skill-creator` for skill development
+- **Example Plugin**: See `/plugins/example-plugin` for reference implementation
+
+## 🔗 Links
+
+- **Repository**: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official
+- **Issues**: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/issues
+- **Discussions**: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/discussions
+
+## 📄 License
+
+Please see each plugin's LICENSE file for specific licensing information. Most plugins use MIT or Apache 2.0 licenses.
+
+## 🆘 Support
+
+For support and questions:
+- **Email**: support@gakrcli.com
+- **GitHub Issues**: Report bugs and request features
+- **Documentation**: Check plugin-specific README files
+
+---
+
+**Made with ❤️ by the GAKRCLI Team**
