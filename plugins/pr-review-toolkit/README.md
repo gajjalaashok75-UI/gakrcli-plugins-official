@@ -306,7 +306,7 @@ MIT
 
 ## Author
 
-Daisy (daisy@anthropic.com)
+Daisy (daisy@gakrcli.com)
 
 ---
 

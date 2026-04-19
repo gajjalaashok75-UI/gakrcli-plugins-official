@@ -2,7 +2,7 @@
   "name": "example-plugin",
   "description": "A comprehensive example plugin demonstrating all Claude Code extension options including commands, agents, skills, hooks, and MCP servers",
   "author": {
-    "name": "Anthropic",
-    "email": "support@anthropic.com"
+    "name": "GAKRCLI",
+    "email": "support@gakrcli.com"
   }
 }

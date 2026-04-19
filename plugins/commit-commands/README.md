@@ -218,7 +218,7 @@ This plugin is included in the Claude Code repository. The commands are automati
 
 ## Author
 
-Anthropic (support@anthropic.com)
+GAKRCLI (support@gakrcli.com)
 
 ## Version
 
