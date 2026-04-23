@@ -2,7 +2,7 @@
 
 A curated directory of high-quality plugins for GAKRCLI - the next-generation AI-powered development environment.
 
-> **⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Always review plugin source code and verify the publisher. GAKRCLI does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.
+> **⚠️ Important:** Ensure you trust a plugin before installing, updating, or using it. Always review the source code and verify the publisher’s reputation. GAKRCLI does not control or verify third-party MCP servers, files, or software; therefore, we cannot guarantee they will function as intended or remain secure. Please visit the plugin’s homepage for full details.
 
 ## 📊 Marketplace Stats
 
