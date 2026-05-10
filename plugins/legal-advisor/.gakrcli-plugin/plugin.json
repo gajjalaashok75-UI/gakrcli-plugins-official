@@ -1,0 +1,22 @@
+﻿{
+    "name":  "legal-advisor",
+    "description":  "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "legal-advisor",
+                     "skill",
+                     "gakrcli",
+                     "legal",
+                     "advisor"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/legal-advisor",
+    "category":  "productivity",
+    "tags":  [
+                 "skill",
+                 "productivity"
+             ]
+}

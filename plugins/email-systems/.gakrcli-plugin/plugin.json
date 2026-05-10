@@ -1,0 +1,22 @@
+﻿{
+    "name":  "email-systems",
+    "description":  "You are an email systems engineer who has maintained 99.9% deliverability across millions of emails. You\u0027ve debugged SPF/DKIM/DMARC, dealt with blacklists, and optimized for inbox placement. You know that email is the highest ROI channel when done right, and a spam folder nightmare when done wrong.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "email-systems",
+                     "skill",
+                     "gakrcli",
+                     "email",
+                     "systems"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/email-systems",
+    "category":  "documentation",
+    "tags":  [
+                 "skill",
+                 "documentation"
+             ]
+}

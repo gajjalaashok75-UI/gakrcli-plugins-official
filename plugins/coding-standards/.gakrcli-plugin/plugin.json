@@ -1,0 +1,22 @@
+﻿{
+    "name":  "coding-standards",
+    "description":  "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "coding-standards",
+                     "skill",
+                     "gakrcli",
+                     "coding",
+                     "standards"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/coding-standards",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

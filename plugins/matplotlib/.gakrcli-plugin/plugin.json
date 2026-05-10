@@ -1,0 +1,20 @@
+﻿{
+    "name":  "matplotlib",
+    "description":  "Matplotlib is Python\u0027s foundational visualization library for creating static, animated, and interactive plots.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "matplotlib",
+                     "skill",
+                     "gakrcli"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/matplotlib",
+    "category":  "design",
+    "tags":  [
+                 "skill",
+                 "design"
+             ]
+}

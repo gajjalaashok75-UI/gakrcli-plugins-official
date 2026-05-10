@@ -1,0 +1,22 @@
+﻿{
+    "name":  "video-generation",
+    "description":  "Use this skill when the user requests to generate, create, or imagine videos. Supports structured prompts and reference image for guided generation.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "video-generation",
+                     "skill",
+                     "gakrcli",
+                     "video",
+                     "generation"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/video-generation",
+    "category":  "documentation",
+    "tags":  [
+                 "skill",
+                 "documentation"
+             ]
+}

@@ -1,0 +1,23 @@
+﻿{
+    "name":  "hugging-face-cli",
+    "description":  "Use the Hugging Face Hub CLI (`hf`) to download, upload, and manage models, datasets, and Spaces.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "hugging-face-cli",
+                     "skill",
+                     "gakrcli",
+                     "hugging",
+                     "face",
+                     "cli"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/hugging-face-cli",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

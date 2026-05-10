@@ -1,0 +1,22 @@
+﻿{
+    "name":  "rust-pro",
+    "description":  "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "rust-pro",
+                     "skill",
+                     "gakrcli",
+                     "rust",
+                     "pro"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/rust-pro",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

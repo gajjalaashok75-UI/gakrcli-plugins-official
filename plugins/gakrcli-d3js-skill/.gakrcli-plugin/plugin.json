@@ -1,0 +1,21 @@
+﻿{
+    "name":  "gakrcli-d3js-skill",
+    "description":  "This skill provides guidance for creating sophisticated, interactive data visualisations using d3.js.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "gakrcli-d3js-skill",
+                     "skill",
+                     "gakrcli",
+                     "d3js"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/gakrcli-d3js-skill",
+    "category":  "design",
+    "tags":  [
+                 "skill",
+                 "design"
+             ]
+}

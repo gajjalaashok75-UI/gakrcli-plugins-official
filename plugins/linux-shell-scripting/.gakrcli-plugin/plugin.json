@@ -1,0 +1,23 @@
+﻿{
+    "name":  "linux-shell-scripting",
+    "description":  "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "linux-shell-scripting",
+                     "skill",
+                     "gakrcli",
+                     "linux",
+                     "shell",
+                     "scripting"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/linux-shell-scripting",
+    "category":  "security",
+    "tags":  [
+                 "skill",
+                 "security"
+             ]
+}

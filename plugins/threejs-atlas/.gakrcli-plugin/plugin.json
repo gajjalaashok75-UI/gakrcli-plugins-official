@@ -1,0 +1,22 @@
+﻿{
+    "name":  "threejs-atlas",
+    "description":  "Comprehensive Three.js orchestrator. Covers 3D graphics, WebGL, animations, materials, shaders, and Three.js development. Use when building 3D web experiences.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "threejs-atlas",
+                     "skill",
+                     "gakrcli",
+                     "threejs",
+                     "atlas"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/threejs-atlas",
+    "category":  "design",
+    "tags":  [
+                 "skill",
+                 "design"
+             ]
+}

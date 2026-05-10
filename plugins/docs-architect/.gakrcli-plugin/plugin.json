@@ -1,0 +1,22 @@
+﻿{
+    "name":  "docs-architect",
+    "description":  "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "docs-architect",
+                     "skill",
+                     "gakrcli",
+                     "docs",
+                     "architect"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/docs-architect",
+    "category":  "documentation",
+    "tags":  [
+                 "skill",
+                 "documentation"
+             ]
+}

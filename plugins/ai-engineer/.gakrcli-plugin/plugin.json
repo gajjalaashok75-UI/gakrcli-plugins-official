@@ -1,0 +1,21 @@
+﻿{
+    "name":  "ai-engineer",
+    "description":  "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "ai-engineer",
+                     "skill",
+                     "gakrcli",
+                     "engineer"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/ai-engineer",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

@@ -1,0 +1,22 @@
+﻿{
+    "name":  "business-analyst",
+    "description":  "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "business-analyst",
+                     "skill",
+                     "gakrcli",
+                     "business",
+                     "analyst"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/business-analyst",
+    "category":  "monitoring",
+    "tags":  [
+                 "skill",
+                 "monitoring"
+             ]
+}

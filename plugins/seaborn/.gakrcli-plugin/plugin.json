@@ -1,0 +1,20 @@
+﻿{
+    "name":  "seaborn",
+    "description":  "Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "seaborn",
+                     "skill",
+                     "gakrcli"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/seaborn",
+    "category":  "design",
+    "tags":  [
+                 "skill",
+                 "design"
+             ]
+}

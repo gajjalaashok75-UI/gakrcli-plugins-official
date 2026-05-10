@@ -1,0 +1,23 @@
+﻿{
+    "name":  "ethical-hacking-methodology",
+    "description":  "Master the complete penetration testing lifecycle from reconnaissance through reporting. This skill covers the five stages of ethical hacking methodology, essential tools, attack techniques, and professional reporting for authorized security assessments.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "ethical-hacking-methodology",
+                     "skill",
+                     "gakrcli",
+                     "ethical",
+                     "hacking",
+                     "methodology"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/ethical-hacking-methodology",
+    "category":  "security",
+    "tags":  [
+                 "skill",
+                 "security"
+             ]
+}

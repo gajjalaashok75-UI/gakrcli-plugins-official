@@ -1,0 +1,22 @@
+﻿{
+    "name":  "scikit-learn",
+    "description":  "Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "scikit-learn",
+                     "skill",
+                     "gakrcli",
+                     "scikit",
+                     "learn"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/scikit-learn",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

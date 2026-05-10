@@ -1,0 +1,22 @@
+﻿{
+    "name":  "market-research",
+    "description":  "Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or research that informs business decisions.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "market-research",
+                     "skill",
+                     "gakrcli",
+                     "market",
+                     "research"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/market-research",
+    "category":  "productivity",
+    "tags":  [
+                 "skill",
+                 "productivity"
+             ]
+}

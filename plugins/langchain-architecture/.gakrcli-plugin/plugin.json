@@ -1,0 +1,22 @@
+﻿{
+    "name":  "langchain-architecture",
+    "description":  "Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "langchain-architecture",
+                     "skill",
+                     "gakrcli",
+                     "langchain",
+                     "architecture"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/langchain-architecture",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

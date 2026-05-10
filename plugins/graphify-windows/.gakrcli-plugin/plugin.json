@@ -1,0 +1,22 @@
+﻿{
+    "name":  "graphify-windows",
+    "description":  "any input (code, docs, papers, images) -\u003e knowledge graph -\u003e clustered communities -\u003e HTML + JSON + audit report",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "graphify-windows",
+                     "skill",
+                     "gakrcli",
+                     "graphify",
+                     "windows"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/graphify-windows",
+    "category":  "documentation",
+    "tags":  [
+                 "skill",
+                 "documentation"
+             ]
+}

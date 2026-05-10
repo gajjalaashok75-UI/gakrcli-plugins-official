@@ -1,0 +1,22 @@
+﻿{
+    "name":  "content-atlas",
+    "description":  "Comprehensive content creation orchestrator. Covers content strategy, creation, marketing, social media, and content optimization. Use when creating or managing content.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "content-atlas",
+                     "skill",
+                     "gakrcli",
+                     "content",
+                     "atlas"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/content-atlas",
+    "category":  "documentation",
+    "tags":  [
+                 "skill",
+                 "documentation"
+             ]
+}

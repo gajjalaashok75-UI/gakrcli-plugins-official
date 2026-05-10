@@ -1,0 +1,23 @@
+﻿{
+    "name":  "llm-prompt-optimizer",
+    "description":  "Optimizes prompts for any LLM using proven engineering techniques. Reduces hallucinations, improves consistency, and cuts token usage. Use when prompts fail or need refinement.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "llm-prompt-optimizer",
+                     "skill",
+                     "gakrcli",
+                     "llm",
+                     "prompt",
+                     "optimizer"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/llm-prompt-optimizer",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

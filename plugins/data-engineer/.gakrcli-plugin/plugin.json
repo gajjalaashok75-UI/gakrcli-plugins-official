@@ -1,0 +1,22 @@
+﻿{
+    "name":  "data-engineer",
+    "description":  "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "data-engineer",
+                     "skill",
+                     "gakrcli",
+                     "data",
+                     "engineer"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/data-engineer",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

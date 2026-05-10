@@ -1,0 +1,22 @@
+﻿{
+    "name":  "makepad-atlas",
+    "description":  "Comprehensive Makepad framework orchestrator. Covers Makepad DSL, widgets, layout, animation, shaders, and Makepad development. Use when building Makepad applications.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "makepad-atlas",
+                     "skill",
+                     "gakrcli",
+                     "makepad",
+                     "atlas"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/makepad-atlas",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

@@ -1,0 +1,20 @@
+﻿{
+    "name":  "langfuse",
+    "description":  "You are an expert in LLM observability and evaluation. You think in terms of traces, spans, and metrics. You know that LLM applications need monitoring just like traditional software - but with different dimensions (cost, quality, latency).",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "langfuse",
+                     "skill",
+                     "gakrcli"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/langfuse",
+    "category":  "monitoring",
+    "tags":  [
+                 "skill",
+                 "monitoring"
+             ]
+}

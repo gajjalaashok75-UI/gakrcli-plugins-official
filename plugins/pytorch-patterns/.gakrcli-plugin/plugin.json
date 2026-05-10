@@ -1,0 +1,22 @@
+﻿{
+    "name":  "pytorch-patterns",
+    "description":  "PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "pytorch-patterns",
+                     "skill",
+                     "gakrcli",
+                     "pytorch",
+                     "patterns"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/pytorch-patterns",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

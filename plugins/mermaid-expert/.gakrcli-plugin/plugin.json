@@ -1,0 +1,22 @@
+﻿{
+    "name":  "mermaid-expert",
+    "description":  "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "mermaid-expert",
+                     "skill",
+                     "gakrcli",
+                     "mermaid",
+                     "expert"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/mermaid-expert",
+    "category":  "design",
+    "tags":  [
+                 "skill",
+                 "design"
+             ]
+}

@@ -1,0 +1,22 @@
+﻿{
+    "name":  "mlops-engineer",
+    "description":  "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. Focuses on automation, scalability, and reliability in production ML systems.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "mlops-engineer",
+                     "skill",
+                     "gakrcli",
+                     "mlops",
+                     "engineer"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/mlops-engineer",
+    "category":  "deployment",
+    "tags":  [
+                 "skill",
+                 "deployment"
+             ]
+}

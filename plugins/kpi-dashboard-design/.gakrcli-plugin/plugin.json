@@ -1,0 +1,23 @@
+﻿{
+    "name":  "kpi-dashboard-design",
+    "description":  "Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "kpi-dashboard-design",
+                     "skill",
+                     "gakrcli",
+                     "kpi",
+                     "dashboard",
+                     "design"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/kpi-dashboard-design",
+    "category":  "design",
+    "tags":  [
+                 "skill",
+                 "design"
+             ]
+}

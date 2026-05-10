@@ -1,0 +1,23 @@
+﻿{
+    "name":  "cloudflare-workers-expert",
+    "description":  "Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "cloudflare-workers-expert",
+                     "skill",
+                     "gakrcli",
+                     "cloudflare",
+                     "workers",
+                     "expert"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/cloudflare-workers-expert",
+    "category":  "deployment",
+    "tags":  [
+                 "skill",
+                 "deployment"
+             ]
+}

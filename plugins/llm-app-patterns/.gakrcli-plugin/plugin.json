@@ -1,0 +1,23 @@
+﻿{
+    "name":  "llm-app-patterns",
+    "description":  "Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "llm-app-patterns",
+                     "skill",
+                     "gakrcli",
+                     "llm",
+                     "app",
+                     "patterns"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/llm-app-patterns",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

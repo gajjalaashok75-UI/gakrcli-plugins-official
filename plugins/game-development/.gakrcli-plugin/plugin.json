@@ -1,0 +1,22 @@
+﻿{
+    "name":  "game-development",
+    "description":  "Game development orchestrator. Routes to platform-specific skills based on project needs.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "game-development",
+                     "skill",
+                     "gakrcli",
+                     "game",
+                     "development"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/game-development",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

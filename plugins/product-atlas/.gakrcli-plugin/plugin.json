@@ -1,0 +1,22 @@
+﻿{
+    "name":  "product-atlas",
+    "description":  "Comprehensive product management orchestrator. Covers product strategy, design, management, marketing, and launch. Use when working on product development and strategy.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "product-atlas",
+                     "skill",
+                     "gakrcli",
+                     "product",
+                     "atlas"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/product-atlas",
+    "category":  "documentation",
+    "tags":  [
+                 "skill",
+                 "documentation"
+             ]
+}

@@ -1,0 +1,22 @@
+﻿{
+    "name":  "network-engineer",
+    "description":  "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "network-engineer",
+                     "skill",
+                     "gakrcli",
+                     "network",
+                     "engineer"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/network-engineer",
+    "category":  "security",
+    "tags":  [
+                 "skill",
+                 "security"
+             ]
+}

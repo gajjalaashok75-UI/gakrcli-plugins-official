@@ -1,0 +1,23 @@
+﻿{
+    "name":  "vercel-ai-sdk-expert",
+    "description":  "Expert in the Vercel AI SDK. Covers Core API (generateText, streamText), UI hooks (useChat, useCompletion), tool calling, and streaming UI components with React and Next.js.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "vercel-ai-sdk-expert",
+                     "skill",
+                     "gakrcli",
+                     "vercel",
+                     "sdk",
+                     "expert"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/vercel-ai-sdk-expert",
+    "category":  "deployment",
+    "tags":  [
+                 "skill",
+                 "deployment"
+             ]
+}

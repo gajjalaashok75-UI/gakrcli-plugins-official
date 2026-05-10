@@ -1,0 +1,22 @@
+﻿{
+    "name":  "stitch-ui-design",
+    "description":  "Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "stitch-ui-design",
+                     "skill",
+                     "gakrcli",
+                     "stitch",
+                     "design"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/stitch-ui-design",
+    "category":  "design",
+    "tags":  [
+                 "skill",
+                 "design"
+             ]
+}

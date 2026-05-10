@@ -1,0 +1,20 @@
+﻿{
+    "name":  "langgraph",
+    "description":  "You are an expert in building production-grade AI agents with LangGraph. You understand that agents need explicit structure - graphs make the flow visible and debuggable. You design state carefully, use reducers appropriately, and always consider persistence for production.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "langgraph",
+                     "skill",
+                     "gakrcli"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/langgraph",
+    "category":  "design",
+    "tags":  [
+                 "skill",
+                 "design"
+             ]
+}

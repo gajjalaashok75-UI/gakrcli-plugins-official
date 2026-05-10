@@ -1,0 +1,22 @@
+﻿{
+    "name":  "vercel-automation",
+    "description":  "Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "vercel-automation",
+                     "skill",
+                     "gakrcli",
+                     "vercel",
+                     "automation"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/vercel-automation",
+    "category":  "deployment",
+    "tags":  [
+                 "skill",
+                 "deployment"
+             ]
+}

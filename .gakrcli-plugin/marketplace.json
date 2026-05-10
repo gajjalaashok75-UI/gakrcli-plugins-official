@@ -1,24 +1,1264 @@
 ﻿{
-  "$schema": "../schemas/gakrcli-marketplace.schema.json",
-  "name": "gakrcli-plugins-official",
-  "description": "Directory of GAKRCLI extensions and plugins",
-  "owner": {
-    "name": "GAKRCLI",
-    "email": "support@gakrcli.com"
-  },
-  "plugins": [
-    {
-      "name": "example-plugin",
-      "description": "A comprehensive example plugin demonstrating GAKRCLI plugin structure and capabilities",
-      "version": "1.0.0",
-      "author": {
-        "name": "GAKRCLI",
-        "email": "support@gakrcli.com"
-      },
-      "category": "development",
-      "source": "./plugins/example-plugin",
-      "homepage": "https://github.com/gakrcli/gakrcli-plugins-official/tree/main/plugins/example-plugin",
-      "keywords": ["example", "tutorial", "reference"]
-    }
-  ]
+    "$schema":  "../schemas/gakrcli-marketplace.schema.json",
+    "name":  "gakrcli-plugins-official",
+    "description":  "Directory of GAKRCLI extensions and plugins",
+    "owner":  {
+                  "name":  "GAKRCLI",
+                  "email":  "support@gakrcli.com"
+              },
+    "plugins":  [
+                    {
+                        "name":  "example-plugin",
+                        "description":  "A comprehensive example plugin demonstrating GAKRCLI plugin structure and capabilities",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/example-plugin",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/example-plugin",
+                        "keywords":  [
+                                         "example",
+                                         "tutorial",
+                                         "reference"
+                                     ]
+                    },
+                    {
+                        "name":  "ai-engineer",
+                        "description":  "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/ai-engineer",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/ai-engineer",
+                        "keywords":  [
+                                         "ai-engineer",
+                                         "skill",
+                                         "gakrcli",
+                                         "engineer"
+                                     ]
+                    },
+                    {
+                        "name":  "animejs-atlas",
+                        "description":  "Comprehensive Anime.js 4 reference atlas for building, debugging, or explaining Anime.js animations. Use when Codex needs official-docs-aligned guidance for Anime.js installation, imports, animate(), timers, timelines, animatable objects, draggable/layout/scope modules, scroll events, SVG, text, utilities, easings, WAAPI, or engine tuning.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/animejs-atlas",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/animejs-atlas",
+                        "keywords":  [
+                                         "animejs-atlas",
+                                         "skill",
+                                         "gakrcli",
+                                         "animejs",
+                                         "atlas"
+                                     ]
+                    },
+                    {
+                        "name":  "article-writing",
+                        "description":  "Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when voice consistency, structure, and credibility matter.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/article-writing",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/article-writing",
+                        "keywords":  [
+                                         "article-writing",
+                                         "skill",
+                                         "gakrcli",
+                                         "article",
+                                         "writing"
+                                     ]
+                    },
+                    {
+                        "name":  "blockchain-developer",
+                        "description":  "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/blockchain-developer",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/blockchain-developer",
+                        "keywords":  [
+                                         "blockchain-developer",
+                                         "skill",
+                                         "gakrcli",
+                                         "blockchain",
+                                         "developer"
+                                     ]
+                    },
+                    {
+                        "name":  "brainstorming",
+                        "description":  "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/brainstorming",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/brainstorming",
+                        "keywords":  [
+                                         "brainstorming",
+                                         "skill",
+                                         "gakrcli"
+                                     ]
+                    },
+                    {
+                        "name":  "business-analyst",
+                        "description":  "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "monitoring",
+                        "source":  "./plugins/business-analyst",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/business-analyst",
+                        "keywords":  [
+                                         "business-analyst",
+                                         "skill",
+                                         "gakrcli",
+                                         "business",
+                                         "analyst"
+                                     ]
+                    },
+                    {
+                        "name":  "chart-visualization",
+                        "description":  "This skill should be used when the user wants to visualize data. It intelligently selects the most suitable chart type from 26 available options, extracts parameters based on detailed specifications, and generates a chart image using a JavaScript script.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/chart-visualization",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/chart-visualization",
+                        "keywords":  [
+                                         "chart-visualization",
+                                         "skill",
+                                         "gakrcli",
+                                         "chart",
+                                         "visualization"
+                                     ]
+                    },
+                    {
+                        "name":  "cloudflare-workers-expert",
+                        "description":  "Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "deployment",
+                        "source":  "./plugins/cloudflare-workers-expert",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/cloudflare-workers-expert",
+                        "keywords":  [
+                                         "cloudflare-workers-expert",
+                                         "skill",
+                                         "gakrcli",
+                                         "cloudflare",
+                                         "workers",
+                                         "expert"
+                                     ]
+                    },
+                    {
+                        "name":  "coding-standards",
+                        "description":  "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/coding-standards",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/coding-standards",
+                        "keywords":  [
+                                         "coding-standards",
+                                         "skill",
+                                         "gakrcli",
+                                         "coding",
+                                         "standards"
+                                     ]
+                    },
+                    {
+                        "name":  "cold-email",
+                        "description":  "Write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR outreach, personalized opening lines, subject lines, CTAs, and multi-touch follow-up sequences.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/cold-email",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/cold-email",
+                        "keywords":  [
+                                         "cold-email",
+                                         "skill",
+                                         "gakrcli",
+                                         "cold",
+                                         "email"
+                                     ]
+                    },
+                    {
+                        "name":  "consulting-analysis",
+                        "description":  "Use this skill when the user requests to generate, create, or write professional research reports including but not limited to market analysis, consumer insights, brand analysis, financial analysis, industry research, competitive intelligence, investment due diligence, or any consulting-grade analytical report. This skill operates in two phases - (1) generating a structured analysis framework with chapter skeleton, data query requirements, and analysis logic, and (2) after data collection by other skills, producing the final consulting-grade report with structured narratives, embedded charts, and strategic insights.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/consulting-analysis",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/consulting-analysis",
+                        "keywords":  [
+                                         "consulting-analysis",
+                                         "skill",
+                                         "gakrcli",
+                                         "consulting",
+                                         "analysis"
+                                     ]
+                    },
+                    {
+                        "name":  "content-atlas",
+                        "description":  "Comprehensive content creation orchestrator. Covers content strategy, creation, marketing, social media, and content optimization. Use when creating or managing content.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/content-atlas",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/content-atlas",
+                        "keywords":  [
+                                         "content-atlas",
+                                         "skill",
+                                         "gakrcli",
+                                         "content",
+                                         "atlas"
+                                     ]
+                    },
+                    {
+                        "name":  "customer-support",
+                        "description":  "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/customer-support",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/customer-support",
+                        "keywords":  [
+                                         "customer-support",
+                                         "skill",
+                                         "gakrcli",
+                                         "customer",
+                                         "support"
+                                     ]
+                    },
+                    {
+                        "name":  "data-engineer",
+                        "description":  "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/data-engineer",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/data-engineer",
+                        "keywords":  [
+                                         "data-engineer",
+                                         "skill",
+                                         "gakrcli",
+                                         "data",
+                                         "engineer"
+                                     ]
+                    },
+                    {
+                        "name":  "data-scientist",
+                        "description":  "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "productivity",
+                        "source":  "./plugins/data-scientist",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/data-scientist",
+                        "keywords":  [
+                                         "data-scientist",
+                                         "skill",
+                                         "gakrcli",
+                                         "data",
+                                         "scientist"
+                                     ]
+                    },
+                    {
+                        "name":  "data-storytelling",
+                        "description":  "Transform raw data into compelling narratives that drive decisions and inspire action.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/data-storytelling",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/data-storytelling",
+                        "keywords":  [
+                                         "data-storytelling",
+                                         "skill",
+                                         "gakrcli",
+                                         "data",
+                                         "storytelling"
+                                     ]
+                    },
+                    {
+                        "name":  "docs-architect",
+                        "description":  "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/docs-architect",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/docs-architect",
+                        "keywords":  [
+                                         "docs-architect",
+                                         "skill",
+                                         "gakrcli",
+                                         "docs",
+                                         "architect"
+                                     ]
+                    },
+                    {
+                        "name":  "email-sequence",
+                        "description":  "You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/email-sequence",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/email-sequence",
+                        "keywords":  [
+                                         "email-sequence",
+                                         "skill",
+                                         "gakrcli",
+                                         "email",
+                                         "sequence"
+                                     ]
+                    },
+                    {
+                        "name":  "email-systems",
+                        "description":  "You are an email systems engineer who has maintained 99.9% deliverability across millions of emails. You\u0027ve debugged SPF/DKIM/DMARC, dealt with blacklists, and optimized for inbox placement. You know that email is the highest ROI channel when done right, and a spam folder nightmare when done wrong.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/email-systems",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/email-systems",
+                        "keywords":  [
+                                         "email-systems",
+                                         "skill",
+                                         "gakrcli",
+                                         "email",
+                                         "systems"
+                                     ]
+                    },
+                    {
+                        "name":  "ethical-hacking-methodology",
+                        "description":  "Master the complete penetration testing lifecycle from reconnaissance through reporting. This skill covers the five stages of ethical hacking methodology, essential tools, attack techniques, and professional reporting for authorized security assessments.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "security",
+                        "source":  "./plugins/ethical-hacking-methodology",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/ethical-hacking-methodology",
+                        "keywords":  [
+                                         "ethical-hacking-methodology",
+                                         "skill",
+                                         "gakrcli",
+                                         "ethical",
+                                         "hacking",
+                                         "methodology"
+                                     ]
+                    },
+                    {
+                        "name":  "gakrcli-d3js-skill",
+                        "description":  "This skill provides guidance for creating sophisticated, interactive data visualisations using d3.js.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/gakrcli-d3js-skill",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/gakrcli-d3js-skill",
+                        "keywords":  [
+                                         "gakrcli-d3js-skill",
+                                         "skill",
+                                         "gakrcli",
+                                         "d3js"
+                                     ]
+                    },
+                    {
+                        "name":  "game-development",
+                        "description":  "Game development orchestrator. Routes to platform-specific skills based on project needs.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/game-development",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/game-development",
+                        "keywords":  [
+                                         "game-development",
+                                         "skill",
+                                         "gakrcli",
+                                         "game",
+                                         "development"
+                                     ]
+                    },
+                    {
+                        "name":  "git-hooks-automation",
+                        "description":  "Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message enforcement before code reaches CI.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "deployment",
+                        "source":  "./plugins/git-hooks-automation",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/git-hooks-automation",
+                        "keywords":  [
+                                         "git-hooks-automation",
+                                         "skill",
+                                         "gakrcli",
+                                         "git",
+                                         "hooks",
+                                         "automation"
+                                     ]
+                    },
+                    {
+                        "name":  "github-deep-research",
+                        "description":  "Conduct multi-round deep research on any GitHub Repo. Use when users request comprehensive analysis, timeline reconstruction, competitive analysis, or in-depth investigation of GitHub. Produces structured markdown reports with executive summaries, chronological timelines, metrics analysis, and Mermaid diagrams. Triggers on Github repository URL or open source projects.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/github-deep-research",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/github-deep-research",
+                        "keywords":  [
+                                         "github-deep-research",
+                                         "skill",
+                                         "gakrcli",
+                                         "github",
+                                         "deep",
+                                         "research"
+                                     ]
+                    },
+                    {
+                        "name":  "graphify-windows",
+                        "description":  "any input (code, docs, papers, images) -\u003e knowledge graph -\u003e clustered communities -\u003e HTML + JSON + audit report",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/graphify-windows",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/graphify-windows",
+                        "keywords":  [
+                                         "graphify-windows",
+                                         "skill",
+                                         "gakrcli",
+                                         "graphify",
+                                         "windows"
+                                     ]
+                    },
+                    {
+                        "name":  "hugging-face-cli",
+                        "description":  "Use the Hugging Face Hub CLI (`hf`) to download, upload, and manage models, datasets, and Spaces.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/hugging-face-cli",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/hugging-face-cli",
+                        "keywords":  [
+                                         "hugging-face-cli",
+                                         "skill",
+                                         "gakrcli",
+                                         "hugging",
+                                         "face",
+                                         "cli"
+                                     ]
+                    },
+                    {
+                        "name":  "hugging-face-datasets",
+                        "description":  "Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. Designed to work alongside HF MCP server for comprehensive dataset workflows.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "database",
+                        "source":  "./plugins/hugging-face-datasets",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/hugging-face-datasets",
+                        "keywords":  [
+                                         "hugging-face-datasets",
+                                         "skill",
+                                         "gakrcli",
+                                         "hugging",
+                                         "face",
+                                         "datasets"
+                                     ]
+                    },
+                    {
+                        "name":  "hugging-face-dataset-viewer",
+                        "description":  "Query Hugging Face datasets through the Dataset Viewer API for splits, rows, search, filters, and parquet links.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/hugging-face-dataset-viewer",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/hugging-face-dataset-viewer",
+                        "keywords":  [
+                                         "hugging-face-dataset-viewer",
+                                         "skill",
+                                         "gakrcli",
+                                         "hugging",
+                                         "face",
+                                         "dataset",
+                                         "viewer"
+                                     ]
+                    },
+                    {
+                        "name":  "image-generation",
+                        "description":  "Use this skill when the user requests to generate, create, imagine, or visualize images including characters, scenes, products, or any visual content. Supports structured prompts and reference images for guided generation.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/image-generation",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/image-generation",
+                        "keywords":  [
+                                         "image-generation",
+                                         "skill",
+                                         "gakrcli",
+                                         "image",
+                                         "generation"
+                                     ]
+                    },
+                    {
+                        "name":  "kpi-dashboard-design",
+                        "description":  "Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/kpi-dashboard-design",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/kpi-dashboard-design",
+                        "keywords":  [
+                                         "kpi-dashboard-design",
+                                         "skill",
+                                         "gakrcli",
+                                         "kpi",
+                                         "dashboard",
+                                         "design"
+                                     ]
+                    },
+                    {
+                        "name":  "landing-page-generator",
+                        "description":  "Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/landing-page-generator",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/landing-page-generator",
+                        "keywords":  [
+                                         "landing-page-generator",
+                                         "skill",
+                                         "gakrcli",
+                                         "landing",
+                                         "page",
+                                         "generator"
+                                     ]
+                    },
+                    {
+                        "name":  "langchain-architecture",
+                        "description":  "Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/langchain-architecture",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/langchain-architecture",
+                        "keywords":  [
+                                         "langchain-architecture",
+                                         "skill",
+                                         "gakrcli",
+                                         "langchain",
+                                         "architecture"
+                                     ]
+                    },
+                    {
+                        "name":  "langfuse",
+                        "description":  "You are an expert in LLM observability and evaluation. You think in terms of traces, spans, and metrics. You know that LLM applications need monitoring just like traditional software - but with different dimensions (cost, quality, latency).",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "monitoring",
+                        "source":  "./plugins/langfuse",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/langfuse",
+                        "keywords":  [
+                                         "langfuse",
+                                         "skill",
+                                         "gakrcli"
+                                     ]
+                    },
+                    {
+                        "name":  "langgraph",
+                        "description":  "You are an expert in building production-grade AI agents with LangGraph. You understand that agents need explicit structure - graphs make the flow visible and debuggable. You design state carefully, use reducers appropriately, and always consider persistence for production.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/langgraph",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/langgraph",
+                        "keywords":  [
+                                         "langgraph",
+                                         "skill",
+                                         "gakrcli"
+                                     ]
+                    },
+                    {
+                        "name":  "legal-advisor",
+                        "description":  "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "productivity",
+                        "source":  "./plugins/legal-advisor",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/legal-advisor",
+                        "keywords":  [
+                                         "legal-advisor",
+                                         "skill",
+                                         "gakrcli",
+                                         "legal",
+                                         "advisor"
+                                     ]
+                    },
+                    {
+                        "name":  "linux-shell-scripting",
+                        "description":  "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "security",
+                        "source":  "./plugins/linux-shell-scripting",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/linux-shell-scripting",
+                        "keywords":  [
+                                         "linux-shell-scripting",
+                                         "skill",
+                                         "gakrcli",
+                                         "linux",
+                                         "shell",
+                                         "scripting"
+                                     ]
+                    },
+                    {
+                        "name":  "llm-app-patterns",
+                        "description":  "Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/llm-app-patterns",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/llm-app-patterns",
+                        "keywords":  [
+                                         "llm-app-patterns",
+                                         "skill",
+                                         "gakrcli",
+                                         "llm",
+                                         "app",
+                                         "patterns"
+                                     ]
+                    },
+                    {
+                        "name":  "llm-prompt-optimizer",
+                        "description":  "Optimizes prompts for any LLM using proven engineering techniques. Reduces hallucinations, improves consistency, and cuts token usage. Use when prompts fail or need refinement.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/llm-prompt-optimizer",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/llm-prompt-optimizer",
+                        "keywords":  [
+                                         "llm-prompt-optimizer",
+                                         "skill",
+                                         "gakrcli",
+                                         "llm",
+                                         "prompt",
+                                         "optimizer"
+                                     ]
+                    },
+                    {
+                        "name":  "makepad-atlas",
+                        "description":  "Comprehensive Makepad framework orchestrator. Covers Makepad DSL, widgets, layout, animation, shaders, and Makepad development. Use when building Makepad applications.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/makepad-atlas",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/makepad-atlas",
+                        "keywords":  [
+                                         "makepad-atlas",
+                                         "skill",
+                                         "gakrcli",
+                                         "makepad",
+                                         "atlas"
+                                     ]
+                    },
+                    {
+                        "name":  "malware-analyst",
+                        "description":  "Expert malware analyst specializing in defensive malware research, threat intelligence, and incident response. Masters sandbox analysis, behavioral analysis, and malware family identification.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "security",
+                        "source":  "./plugins/malware-analyst",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/malware-analyst",
+                        "keywords":  [
+                                         "malware-analyst",
+                                         "skill",
+                                         "gakrcli",
+                                         "malware",
+                                         "analyst"
+                                     ]
+                    },
+                    {
+                        "name":  "marketing-ideas",
+                        "description":  "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/marketing-ideas",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/marketing-ideas",
+                        "keywords":  [
+                                         "marketing-ideas",
+                                         "skill",
+                                         "gakrcli",
+                                         "marketing",
+                                         "ideas"
+                                     ]
+                    },
+                    {
+                        "name":  "marketing-psychology",
+                        "description":  "Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/marketing-psychology",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/marketing-psychology",
+                        "keywords":  [
+                                         "marketing-psychology",
+                                         "skill",
+                                         "gakrcli",
+                                         "marketing",
+                                         "psychology"
+                                     ]
+                    },
+                    {
+                        "name":  "market-research",
+                        "description":  "Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or research that informs business decisions.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "productivity",
+                        "source":  "./plugins/market-research",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/market-research",
+                        "keywords":  [
+                                         "market-research",
+                                         "skill",
+                                         "gakrcli",
+                                         "market",
+                                         "research"
+                                     ]
+                    },
+                    {
+                        "name":  "matplotlib",
+                        "description":  "Matplotlib is Python\u0027s foundational visualization library for creating static, animated, and interactive plots.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/matplotlib",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/matplotlib",
+                        "keywords":  [
+                                         "matplotlib",
+                                         "skill",
+                                         "gakrcli"
+                                     ]
+                    },
+                    {
+                        "name":  "mermaid-expert",
+                        "description":  "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/mermaid-expert",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/mermaid-expert",
+                        "keywords":  [
+                                         "mermaid-expert",
+                                         "skill",
+                                         "gakrcli",
+                                         "mermaid",
+                                         "expert"
+                                     ]
+                    },
+                    {
+                        "name":  "mlops-engineer",
+                        "description":  "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. Focuses on automation, scalability, and reliability in production ML systems.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "deployment",
+                        "source":  "./plugins/mlops-engineer",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/mlops-engineer",
+                        "keywords":  [
+                                         "mlops-engineer",
+                                         "skill",
+                                         "gakrcli",
+                                         "mlops",
+                                         "engineer"
+                                     ]
+                    },
+                    {
+                        "name":  "ml-pipeline-workflow",
+                        "description":  "Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "deployment",
+                        "source":  "./plugins/ml-pipeline-workflow",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/ml-pipeline-workflow",
+                        "keywords":  [
+                                         "ml-pipeline-workflow",
+                                         "skill",
+                                         "gakrcli",
+                                         "pipeline",
+                                         "workflow"
+                                     ]
+                    },
+                    {
+                        "name":  "network-engineer",
+                        "description":  "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "security",
+                        "source":  "./plugins/network-engineer",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/network-engineer",
+                        "keywords":  [
+                                         "network-engineer",
+                                         "skill",
+                                         "gakrcli",
+                                         "network",
+                                         "engineer"
+                                     ]
+                    },
+                    {
+                        "name":  "nosql-expert",
+                        "description":  "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "database",
+                        "source":  "./plugins/nosql-expert",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/nosql-expert",
+                        "keywords":  [
+                                         "nosql-expert",
+                                         "skill",
+                                         "gakrcli",
+                                         "nosql",
+                                         "expert"
+                                     ]
+                    },
+                    {
+                        "name":  "plotly",
+                        "description":  "Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/plotly",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/plotly",
+                        "keywords":  [
+                                         "plotly",
+                                         "skill",
+                                         "gakrcli"
+                                     ]
+                    },
+                    {
+                        "name":  "podcast-generation",
+                        "description":  "Use this skill when the user requests to generate, create, or produce podcasts from text content. Converts written content into a two-host conversational podcast audio format with natural dialogue.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/podcast-generation",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/podcast-generation",
+                        "keywords":  [
+                                         "podcast-generation",
+                                         "skill",
+                                         "gakrcli",
+                                         "podcast",
+                                         "generation"
+                                     ]
+                    },
+                    {
+                        "name":  "ppt-generation",
+                        "description":  "Use this skill when the user requests to generate, create, or make presentations (PPT/PPTX). Creates visually rich slides by generating images for each slide and composing them into a PowerPoint file.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/ppt-generation",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/ppt-generation",
+                        "keywords":  [
+                                         "ppt-generation",
+                                         "skill",
+                                         "gakrcli",
+                                         "ppt",
+                                         "generation"
+                                     ]
+                    },
+                    {
+                        "name":  "product-atlas",
+                        "description":  "Comprehensive product management orchestrator. Covers product strategy, design, management, marketing, and launch. Use when working on product development and strategy.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/product-atlas",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/product-atlas",
+                        "keywords":  [
+                                         "product-atlas",
+                                         "skill",
+                                         "gakrcli",
+                                         "product",
+                                         "atlas"
+                                     ]
+                    },
+                    {
+                        "name":  "pytorch-patterns",
+                        "description":  "PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/pytorch-patterns",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/pytorch-patterns",
+                        "keywords":  [
+                                         "pytorch-patterns",
+                                         "skill",
+                                         "gakrcli",
+                                         "pytorch",
+                                         "patterns"
+                                     ]
+                    },
+                    {
+                        "name":  "rust-pro",
+                        "description":  "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/rust-pro",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/rust-pro",
+                        "keywords":  [
+                                         "rust-pro",
+                                         "skill",
+                                         "gakrcli",
+                                         "rust",
+                                         "pro"
+                                     ]
+                    },
+                    {
+                        "name":  "scikit-learn",
+                        "description":  "Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "development",
+                        "source":  "./plugins/scikit-learn",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/scikit-learn",
+                        "keywords":  [
+                                         "scikit-learn",
+                                         "skill",
+                                         "gakrcli",
+                                         "scikit",
+                                         "learn"
+                                     ]
+                    },
+                    {
+                        "name":  "seaborn",
+                        "description":  "Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/seaborn",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/seaborn",
+                        "keywords":  [
+                                         "seaborn",
+                                         "skill",
+                                         "gakrcli"
+                                     ]
+                    },
+                    {
+                        "name":  "startup-analyst",
+                        "description":  "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "productivity",
+                        "source":  "./plugins/startup-analyst",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/startup-analyst",
+                        "keywords":  [
+                                         "startup-analyst",
+                                         "skill",
+                                         "gakrcli",
+                                         "startup",
+                                         "analyst"
+                                     ]
+                    },
+                    {
+                        "name":  "stitch-ui-design",
+                        "description":  "Expert guidance for crafting effective prompts in Google Stitch, the AI-powered UI design tool by Google Labs. This skill helps create precise, actionable prompts that generate high-quality UI designs for web and mobile applications.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/stitch-ui-design",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/stitch-ui-design",
+                        "keywords":  [
+                                         "stitch-ui-design",
+                                         "skill",
+                                         "gakrcli",
+                                         "stitch",
+                                         "design"
+                                     ]
+                    },
+                    {
+                        "name":  "threejs-atlas",
+                        "description":  "Comprehensive Three.js orchestrator. Covers 3D graphics, WebGL, animations, materials, shaders, and Three.js development. Use when building 3D web experiences.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "design",
+                        "source":  "./plugins/threejs-atlas",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/threejs-atlas",
+                        "keywords":  [
+                                         "threejs-atlas",
+                                         "skill",
+                                         "gakrcli",
+                                         "threejs",
+                                         "atlas"
+                                     ]
+                    },
+                    {
+                        "name":  "vector-database-engineer",
+                        "description":  "Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similar",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "database",
+                        "source":  "./plugins/vector-database-engineer",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/vector-database-engineer",
+                        "keywords":  [
+                                         "vector-database-engineer",
+                                         "skill",
+                                         "gakrcli",
+                                         "vector",
+                                         "database",
+                                         "engineer"
+                                     ]
+                    },
+                    {
+                        "name":  "vercel-ai-sdk-expert",
+                        "description":  "Expert in the Vercel AI SDK. Covers Core API (generateText, streamText), UI hooks (useChat, useCompletion), tool calling, and streaming UI components with React and Next.js.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "deployment",
+                        "source":  "./plugins/vercel-ai-sdk-expert",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/vercel-ai-sdk-expert",
+                        "keywords":  [
+                                         "vercel-ai-sdk-expert",
+                                         "skill",
+                                         "gakrcli",
+                                         "vercel",
+                                         "sdk",
+                                         "expert"
+                                     ]
+                    },
+                    {
+                        "name":  "vercel-automation",
+                        "description":  "Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "deployment",
+                        "source":  "./plugins/vercel-automation",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/vercel-automation",
+                        "keywords":  [
+                                         "vercel-automation",
+                                         "skill",
+                                         "gakrcli",
+                                         "vercel",
+                                         "automation"
+                                     ]
+                    },
+                    {
+                        "name":  "vercel-deploy",
+                        "description":  "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "deployment",
+                        "source":  "./plugins/vercel-deploy",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/vercel-deploy",
+                        "keywords":  [
+                                         "vercel-deploy",
+                                         "skill",
+                                         "gakrcli",
+                                         "vercel",
+                                         "deploy"
+                                     ]
+                    },
+                    {
+                        "name":  "video-generation",
+                        "description":  "Use this skill when the user requests to generate, create, or imagine videos. Supports structured prompts and reference image for guided generation.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "documentation",
+                        "source":  "./plugins/video-generation",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/video-generation",
+                        "keywords":  [
+                                         "video-generation",
+                                         "skill",
+                                         "gakrcli",
+                                         "video",
+                                         "generation"
+                                     ]
+                    }
+                ]
 }

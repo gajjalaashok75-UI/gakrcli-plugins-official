@@ -1,0 +1,23 @@
+﻿{
+    "name":  "landing-page-generator",
+    "description":  "Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "landing-page-generator",
+                     "skill",
+                     "gakrcli",
+                     "landing",
+                     "page",
+                     "generator"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/landing-page-generator",
+    "category":  "development",
+    "tags":  [
+                 "skill",
+                 "development"
+             ]
+}

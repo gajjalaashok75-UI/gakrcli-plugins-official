@@ -1,0 +1,22 @@
+﻿{
+    "name":  "nosql-expert",
+    "description":  "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "nosql-expert",
+                     "skill",
+                     "gakrcli",
+                     "nosql",
+                     "expert"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/nosql-expert",
+    "category":  "database",
+    "tags":  [
+                 "skill",
+                 "database"
+             ]
+}

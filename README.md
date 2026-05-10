@@ -1,149 +1,181 @@
 # GAKRCLI Plugins Official
 
-A curated directory of high-quality plugins for GAKRCLI - the next-generation AI-powered development environment.
+A curated directory of high-quality plugins for GAKRCLI, the next-generation AI-powered development environment.
 
-> **⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Always review plugin source code and verify the publisher. GAKRCLI does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.
+> Important: Make sure you trust a plugin before installing, updating, or using it. Always review plugin source code and verify the publisher.
 
-## 📊 Marketplace Stats
+## Marketplace Stats
 
-- **0 Plugins** available
-- **0 Internal Plugins** - Developed and maintained by GAKRCLI team
-- **0 External Plugins** - Community and partner contributions
-- **JSON Schema Validated** - All plugins follow strict validation rules
+- **66 plugins** available
+- **66 internal plugins** maintained in this repository
+- **0 external plugins** currently listed
+- Marketplace metadata is tracked in `.gakrcli-plugin/marketplace.json`
 
-## 📁 Repository Structure
+## How To Use
 
-- **`/plugins`** - Internal plugins developed and maintained by GAKRCLI team
-- **`/external_plugins`** - Third-party plugins from partners and the community
-- **`/schemas`** - JSON Schema for marketplace validation
-- **`.gakrcli-plugin/`** - Marketplace configuration and plugin registry
+Install any plugin from this marketplace with:
 
-## 🚀 Installation
-
-Plugins can be installed directly from this marketplace via GAKRCLI's plugin system.
-
-### Install via Command
 ```bash
 /plugin install {plugin-name}@gakrcli-plugins-official
 ```
 
-### Install via UI
-Browse and install plugins through the GAKRCLI interface:
+Examples:
+
+```bash
+/plugin install example-plugin@gakrcli-plugins-official
+/plugin install ai-engineer@gakrcli-plugins-official
+/plugin install vercel-deploy@gakrcli-plugins-official
 ```
-/plugin > Discover > Search for plugin
+
+Most generated skill plugins include the same entry points:
+
+- Command: `/{plugin-name}:use`
+- Agent: `{plugin-name}-agent`
+- Skill file: `skills/{plugin-name}/SKILL.md`
+
+Example after installing `ai-engineer`:
+
+```text
+/ai-engineer:use
 ```
 
-## 🤝 Contributing
+You can also ask GAKRCLI to use the installed skill or launch the matching agent by name.
 
-We welcome contributions from the community! 
+## Repository Structure
 
-### Internal Plugins
+- `/plugins` - Internal plugins and generated skill plugins
+- `/schemas` - JSON Schema for marketplace validation
+- `.gakrcli-plugin/` - Marketplace configuration and plugin registry
+- `/souls` - Source material used to generate the skill plugins
 
-Internal plugins are developed by GAKRCLI team members. See `/plugins/example-plugin` for a reference implementation.
+Each plugin follows this layout:
 
-### External Plugins
-
-Third-party developers can submit plugins for inclusion in the marketplace. External plugins must meet quality and security standards for approval.
-
-**Submission Requirements:**
-- Follow the standard plugin structure
-- Include comprehensive documentation
-- Pass JSON schema validation
-- Provide clear installation instructions
-- Include proper licensing information
-
-To submit a plugin:
-1. Fork this repository
-2. Add your plugin to `/external_plugins/{your-plugin-name}`
-3. Update `.gakrcli-plugin/marketplace.json`
-4. Submit a pull request
-
-### Development Resources
-
-- **Plugin Development Guide**: `/plugins/plugin-dev`
-- **Example Plugin**: `/plugins/example-plugin`
-- **Schema Reference**: `/schemas/gakrcli-marketplace.schema.json`
-
-## 📦 Plugin Structure
-
-Each plugin follows a standard structure:
-
-```
+```text
 plugin-name/
-├── .gakrcli-plugin/
-│   └── plugin.json      # Plugin metadata (required)
-├── .mcp.json            # MCP server configuration (optional)
-├── commands/            # Slash commands (optional)
-├── agents/              # Agent definitions (optional)
-├── skills/              # Skill definitions (optional)
-├── hooks/               # Event hooks (optional)
-├── LICENSE              # License file (required)
-└── README.md            # Documentation (required)
+|-- .gakrcli-plugin/
+|   `-- plugin.json
+|-- commands/
+|-- agents/
+|-- skills/
+|-- hooks/
+|-- .mcp.json
+|-- LICENSE
+`-- README.md
 ```
 
-### Required Files
+Required files are `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`. Commands, agents, skills, hooks, and MCP configuration are optional.
 
-- **`.gakrcli-plugin/plugin.json`** - Plugin metadata and configuration
-- **`README.md`** - Plugin documentation
-- **`LICENSE`** - License information
+## Plugin Catalog
 
-### Optional Components
+### Development
 
-- **`commands/`** - Custom slash commands
-- **`agents/`** - Specialized AI agents
-- **`skills/`** - Reusable skill definitions
-- **`hooks/`** - Event-driven automation
-- **`.mcp.json`** - MCP server integration
+- `example-plugin` - Reference implementation showing the complete plugin structure.
+- `ai-engineer`
+- `blockchain-developer`
+- `coding-standards`
+- `data-engineer`
+- `data-storytelling`
+- `game-development`
+- `hugging-face-cli`
+- `hugging-face-dataset-viewer`
+- `landing-page-generator`
+- `langchain-architecture`
+- `llm-app-patterns`
+- `llm-prompt-optimizer`
+- `makepad-atlas`
+- `pytorch-patterns`
+- `rust-pro`
+- `scikit-learn`
 
-## 📋 Marketplace Schema
+### Documentation And Content
 
-This repository uses a JSON Schema to validate the marketplace configuration:
+- `animejs-atlas`
+- `article-writing`
+- `cold-email`
+- `content-atlas`
+- `customer-support`
+- `docs-architect`
+- `email-sequence`
+- `email-systems`
+- `graphify-windows`
+- `image-generation`
+- `marketing-ideas`
+- `marketing-psychology`
+- `plotly`
+- `podcast-generation`
+- `ppt-generation`
+- `product-atlas`
+- `video-generation`
 
-- **Schema Location**: `schemas/gakrcli-marketplace.schema.json`
-- **Marketplace Config**: `.gakrcli-plugin/marketplace.json`
+### Design And Visualization
 
-The schema validates:
-- Plugin metadata (name, description, version)
-- Source types (local, git URL, git subdirectory)
-- Categories and tags
-- Author information
-- LSP server configurations
+- `brainstorming`
+- `chart-visualization`
+- `consulting-analysis`
+- `gakrcli-d3js-skill`
+- `github-deep-research`
+- `kpi-dashboard-design`
+- `langgraph`
+- `matplotlib`
+- `mermaid-expert`
+- `seaborn`
+- `stitch-ui-design`
+- `threejs-atlas`
 
-## 🔍 Plugin Categories
+### Deployment And Automation
 
-- **Development** - Development tools and workflows
-- **Productivity** - Productivity enhancers and utilities
-- **Security** - Security scanning and analysis
-- **Database** - Database management and tools
-- **Deployment** - Deployment and infrastructure
-- **Monitoring** - Monitoring and observability
-- **Design** - Design and UI tools
-- **Learning** - Educational and learning resources
+- `cloudflare-workers-expert`
+- `git-hooks-automation`
+- `mlops-engineer`
+- `ml-pipeline-workflow`
+- `vercel-ai-sdk-expert`
+- `vercel-automation`
+- `vercel-deploy`
 
-## 📚 Documentation
+### Security
 
-- **Plugin Development**: See `/plugins/plugin-dev` for comprehensive guides
-- **MCP Integration**: See `/plugins/mcp-server-dev` for MCP server development
-- **Skill Creation**: See `/plugins/skill-creator` for skill development
-- **Example Plugin**: See `/plugins/example-plugin` for reference implementation
+- `ethical-hacking-methodology`
+- `linux-shell-scripting`
+- `malware-analyst`
+- `network-engineer`
 
-## 🔗 Links
+### Database And Data Platforms
 
-- **Repository**: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official
-- **Issues**: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/issues
-- **Discussions**: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/discussions
+- `hugging-face-datasets`
+- `nosql-expert`
+- `vector-database-engineer`
 
-## 📄 License
+### Monitoring
 
-Please see each plugin's LICENSE file for specific licensing information. Most plugins use MIT or Apache 2.0 licenses.
+- `business-analyst`
+- `langfuse`
 
-## 🆘 Support
+### Productivity And Business
 
-For support and questions:
-- **Email**: support@gakrcli.com
-- **GitHub Issues**: Report bugs and request features
-- **Documentation**: Check plugin-specific README files
+- `data-scientist`
+- `legal-advisor`
+- `market-research`
+- `startup-analyst`
 
----
+For full plugin descriptions, source paths, keywords, and categories, see `.gakrcli-plugin/marketplace.json`.
 
-**Made with ❤️ by the GAKRCLI Team**
+## Contributing
+
+1. Fork this repository.
+2. Add your plugin under `/plugins/{plugin-name}` or `/external_plugins/{plugin-name}`.
+3. Include `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`.
+4. Update `.gakrcli-plugin/marketplace.json`.
+5. Validate the marketplace JSON against `schemas/gakrcli-marketplace.schema.json`.
+6. Submit a pull request.
+
+Use `/plugins/example-plugin` as the reference implementation.
+
+## License
+
+Please see each plugin's `LICENSE` file for specific licensing information.
+
+## Support
+
+- Repository: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official
+- Issues: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/issues
+- Discussions: https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/discussions

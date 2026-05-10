@@ -1,0 +1,23 @@
+﻿{
+    "name":  "hugging-face-datasets",
+    "description":  "Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. Designed to work alongside HF MCP server for comprehensive dataset workflows.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "hugging-face-datasets",
+                     "skill",
+                     "gakrcli",
+                     "hugging",
+                     "face",
+                     "datasets"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/hugging-face-datasets",
+    "category":  "database",
+    "tags":  [
+                 "skill",
+                 "database"
+             ]
+}
