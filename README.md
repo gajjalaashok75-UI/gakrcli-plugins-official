@@ -4,6 +4,24 @@ A curated directory of high-quality plugins for GAKRCLI, the next-generation AI-
 
 > Important: Make sure you trust a plugin before installing, updating, or using it. Always review plugin source code and verify the publisher.
 
+## What Is GAKRCLI?
+
+GAKRCLI is a terminal-first AI coding agent for running powerful LLM workflows directly from your command line. It supports OpenAI, Anthropic, Gemini, DeepSeek, Ollama, GitHub Models, and many OpenAI-compatible providers while keeping one workflow for prompts, tools, agents, MCP servers, slash commands, skills, plugins, and streaming output.
+
+The packaged command is `gakrcli`, and the recommended install is:
+
+```bash
+npm install -g @gakr-gakr/gakrcli
+```
+
+Then start it with:
+
+```bash
+gakrcli
+```
+
+Requirements: Node.js 20 or newer, plus `ripgrep` / `rg` in your PATH. The main GAKRCLI source repository is `https://github.com/gajjalaashok75-UI/GakrCLI`.
+
 ## Marketplace Stats
 
 - **66 plugins** available
