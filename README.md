@@ -20,7 +20,7 @@ Then start it with:
 gakrcli
 ```
 
-Requirements: Node.js 20 or newer, plus `ripgrep` / `rg` in your PATH. The main GAKRCLI source repository is `https://github.com/gajjalaashok75-UI/GakrCLI`.
+Requirements: Node.js 20 or newer, plus `ripgrep` / `rg` in your PATH. The main GAKRCLI source repository is [gajjalaashok75-UI/GakrCLI](https://github.com/gajjalaashok75-UI/GakrCLI).
 
 ## Marketplace Stats
 
