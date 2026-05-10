@@ -1,6 +1,13 @@
 {
-  "example-server": {
-    "type": "http",
-    "url": "https://mcp.example.com/api"
+  "mcpServers": {
+    "example-server": {
+      "command": "node",
+      "args": ["server.js"],
+      "env": {
+        "LOG_LEVEL": "info"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
   }
 }

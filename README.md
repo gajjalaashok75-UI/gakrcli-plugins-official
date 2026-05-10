@@ -6,9 +6,9 @@ A curated directory of high-quality plugins for GAKRCLI - the next-generation AI
 
 ## 📊 Marketplace Stats
 
-- **144 Plugins** available
-- **20 Internal Plugins** - Developed and maintained by GAKRCLI team
-- **15 External Plugins** - Community and partner contributions
+- **0 Plugins** available
+- **0 Internal Plugins** - Developed and maintained by GAKRCLI team
+- **0 External Plugins** - Community and partner contributions
 - **JSON Schema Validated** - All plugins follow strict validation rules
 
 ## 📁 Repository Structure
@@ -32,15 +32,6 @@ Browse and install plugins through the GAKRCLI interface:
 ```
 /plugin > Discover > Search for plugin
 ```
-
-### Popular Plugins
-
-- **agent-sdk-dev** - Development kit for working with the GAKRCLI Agent SDK
-- **code-review** - Automated code review with specialized agents
-- **feature-dev** - Comprehensive feature development workflow
-- **frontend-design** - Create distinctive, production-grade frontend interfaces
-- **github** - Official GitHub MCP server for repository management
-- **mcp-server-dev** - Build and develop MCP servers and apps
 
 ## 🤝 Contributing
 

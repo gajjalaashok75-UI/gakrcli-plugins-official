@@ -1,0 +1,12 @@
+{
+  "name": "Lint on Save",
+  "version": "1.0.0",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["*.ts", "*.tsx"]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "npm run lint"
+  }
+}

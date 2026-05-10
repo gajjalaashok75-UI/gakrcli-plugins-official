@@ -1,8 +1,13 @@
 {
   "name": "example-plugin",
-  "description": "A comprehensive example plugin demonstrating all Claude Code extension options including commands, agents, skills, hooks, and MCP servers",
+  "description": "A comprehensive example plugin demonstrating all GAKRCLI plugin features and best practices",
+  "version": "1.0.0",
   "author": {
     "name": "GAKRCLI",
     "email": "support@gakrcli.com"
-  }
+  },
+  "keywords": ["example", "tutorial", "reference", "plugin-development"],
+  "homepage": "https://github.com/gakrcli/gakrcli-plugins-official/tree/main/plugins/example-plugin",
+  "category": "development",
+  "tags": ["example", "documentation"]
 }
