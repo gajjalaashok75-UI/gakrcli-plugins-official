@@ -1234,6 +1234,25 @@
                                      ]
                     },
                     {
+                        "name":  "session-report",
+                        "description":  "Generate an explorable HTML report of GAKRCLI session usage, including tokens, cache behavior, subagents, skills, and expensive prompts from local transcript data.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "GAKRCLI",
+                                       "email":  "support@gakrcli.com"
+                                   },
+                        "category":  "monitoring",
+                        "source":  "./external-plugins/session-report",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/external-plugins/session-report",
+                        "keywords":  [
+                                         "session-report",
+                                         "usage",
+                                         "tokens",
+                                         "analytics",
+                                         "gakrcli"
+                                     ]
+                    },
+                    {
                         "name":  "startup-analyst",
                         "description":  "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.",
                         "version":  "1.0.0",

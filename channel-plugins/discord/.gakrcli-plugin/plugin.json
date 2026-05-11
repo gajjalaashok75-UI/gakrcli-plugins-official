@@ -1,11 +1,21 @@
-{
-  "name": "discord",
-  "description": "Discord channel for GAKRCLI \u2014 messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
-  "version": "0.0.4",
-  "keywords": [
-    "discord",
-    "messaging",
-    "channel",
-    "mcp"
-  ]
+﻿{
+    "name":  "discord",
+    "description":  "Discord channel for GAKRCLI — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
+    "version":  "0.0.4",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "discord",
+                     "channel",
+                     "messaging",
+                     "mcp"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/channel-plugins/discord",
+    "category":  "productivity",
+    "tags":  [
+                 "channel",
+                 "productivity"
+             ]
 }

@@ -14,7 +14,7 @@
                      "app",
                      "patterns"
                  ],
-    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/llm-app-patterns",
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/skill-plugins/llm-app-patterns",
     "category":  "development",
     "tags":  [
                  "skill",

@@ -14,7 +14,7 @@
                      "hooks",
                      "automation"
                  ],
-    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/git-hooks-automation",
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/skill-plugins/git-hooks-automation",
     "category":  "deployment",
     "tags":  [
                  "skill",

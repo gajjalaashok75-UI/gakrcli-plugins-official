@@ -14,7 +14,7 @@
                      "workers",
                      "expert"
                  ],
-    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/cloudflare-workers-expert",
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/skill-plugins/cloudflare-workers-expert",
     "category":  "deployment",
     "tags":  [
                  "skill",

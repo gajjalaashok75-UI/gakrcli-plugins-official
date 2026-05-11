@@ -1,0 +1,22 @@
+﻿{
+    "name":  "session-report",
+    "description":  "Generate an explorable HTML report of GAKRCLI session usage, including tokens, cache behavior, subagents, skills, and expensive prompts from local transcript data.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "GAKRCLI",
+                   "email":  "support@gakrcli.com"
+               },
+    "keywords":  [
+                     "session-report",
+                     "usage",
+                     "tokens",
+                     "analytics",
+                     "gakrcli"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/external-plugins/session-report",
+    "category":  "monitoring",
+    "tags":  [
+                 "external",
+                 "monitoring"
+             ]
+}

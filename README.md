@@ -24,11 +24,11 @@ Requirements: Node.js 20 or newer, plus `ripgrep` / `rg` in your PATH. The main 
 
 ## Marketplace Stats
 
-- **75 plugins** available
+- **76 plugins** available
 - **66 skill plugins** generated from the souls library
 - **5 MCP plugins** for external services and developer platforms
 - **3 channel plugins** for messaging bridges
-- **1 external browser automation plugin**
+- **2 external plugins**
 - Marketplace metadata is tracked in `.gakrcli-plugin/marketplace.json`
 
 ## How To Use
@@ -48,6 +48,7 @@ Examples:
 /plugin install github-mcp@gakrcli-plugins-official
 /plugin install telegram@gakrcli-plugins-official
 /plugin install playwright@gakrcli-plugins-official
+/plugin install session-report@gakrcli-plugins-official
 ```
 
 Generated skill plugins include the same entry points:
@@ -64,7 +65,7 @@ Example after installing `ai-engineer`:
 
 You can also ask GAKRCLI to use the installed skill or launch the matching agent by name.
 
-MCP plugins include `.mcp.json` files that connect GAKRCLI to external MCP servers. Channel plugins also include `.mcp.json` plus channel-specific skills such as `/telegram:configure`, `/discord:access`, or `/imessage:access`.
+MCP plugins include `.mcp.json` files that connect GAKRCLI to external MCP servers. Channel plugins also include `.mcp.json` plus channel-specific skills such as `/telegram:configure`, `/discord:access`, or `/imessage:access`. External plugins may provide MCP integrations, standalone skills, scripts, or report templates depending on the plugin.
 
 ## Repository Structure
 
@@ -202,6 +203,7 @@ Required files are `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`. Co
 ### External Plugins
 
 - `playwright` - Playwright browser automation and end-to-end testing MCP integration.
+- `session-report` - Interactive HTML report for local GAKRCLI session usage, token, cache, and prompt analytics.
 
 For full plugin descriptions, source paths, keywords, and categories, see `.gakrcli-plugin/marketplace.json`.
 

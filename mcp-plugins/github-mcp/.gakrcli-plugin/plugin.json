@@ -1,7 +1,21 @@
 ﻿{
     "name":  "github-mcp",
     "description":  "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub\u0027s full API directly from GAKRCLI.",
+    "version":  "1.0.0",
     "author":  {
                    "name":  "GitHub"
-               }
+               },
+    "keywords":  [
+                     "github",
+                     "mcp",
+                     "repository",
+                     "pull-requests",
+                     "issues"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/mcp-plugins/github-mcp",
+    "category":  "development",
+    "tags":  [
+                 "mcp",
+                 "development"
+             ]
 }

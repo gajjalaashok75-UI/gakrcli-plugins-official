@@ -1,7 +1,21 @@
-{
-  "name": "playwright",
-  "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables GAKRCLI to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
-  "author": {
-    "name": "Microsoft"
-  }
+﻿{
+    "name":  "playwright",
+    "description":  "Browser automation and end-to-end testing MCP server by Microsoft. Enables GAKRCLI to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
+    "version":  "1.0.0",
+    "author":  {
+                   "name":  "Microsoft"
+               },
+    "keywords":  [
+                     "playwright",
+                     "browser",
+                     "automation",
+                     "testing",
+                     "mcp"
+                 ],
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/external-plugins/playwright",
+    "category":  "testing",
+    "tags":  [
+                 "external",
+                 "testing"
+             ]
 }

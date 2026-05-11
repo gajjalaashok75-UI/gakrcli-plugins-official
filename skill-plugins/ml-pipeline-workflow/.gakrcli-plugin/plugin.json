@@ -13,7 +13,7 @@
                      "pipeline",
                      "workflow"
                  ],
-    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/ml-pipeline-workflow",
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/skill-plugins/ml-pipeline-workflow",
     "category":  "deployment",
     "tags":  [
                  "skill",

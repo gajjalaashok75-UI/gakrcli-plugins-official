@@ -15,7 +15,7 @@
                      "dataset",
                      "viewer"
                  ],
-    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/hugging-face-dataset-viewer",
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/skill-plugins/hugging-face-dataset-viewer",
     "category":  "development",
     "tags":  [
                  "skill",

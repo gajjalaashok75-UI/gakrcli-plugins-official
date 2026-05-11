@@ -13,7 +13,7 @@
                      "langchain",
                      "architecture"
                  ],
-    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/plugins/langchain-architecture",
+    "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/skill-plugins/langchain-architecture",
     "category":  "development",
     "tags":  [
                  "skill",
