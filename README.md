@@ -24,9 +24,11 @@ Requirements: Node.js 20 or newer, plus `ripgrep` / `rg` in your PATH. The main 
 
 ## Marketplace Stats
 
-- **66 plugins** available
-- **66 internal plugins** maintained in this repository
-- **0 external plugins** currently listed
+- **75 plugins** available
+- **66 skill plugins** generated from the souls library
+- **5 MCP plugins** for external services and developer platforms
+- **3 channel plugins** for messaging bridges
+- **1 external browser automation plugin**
 - Marketplace metadata is tracked in `.gakrcli-plugin/marketplace.json`
 
 ## How To Use
@@ -43,9 +45,12 @@ Examples:
 /plugin install example-plugin@gakrcli-plugins-official
 /plugin install ai-engineer@gakrcli-plugins-official
 /plugin install vercel-deploy@gakrcli-plugins-official
+/plugin install github-mcp@gakrcli-plugins-official
+/plugin install telegram@gakrcli-plugins-official
+/plugin install playwright@gakrcli-plugins-official
 ```
 
-Most generated skill plugins include the same entry points:
+Generated skill plugins include the same entry points:
 
 - Command: `/{plugin-name}:use`
 - Agent: `{plugin-name}-agent`
@@ -59,9 +64,14 @@ Example after installing `ai-engineer`:
 
 You can also ask GAKRCLI to use the installed skill or launch the matching agent by name.
 
+MCP plugins include `.mcp.json` files that connect GAKRCLI to external MCP servers. Channel plugins also include `.mcp.json` plus channel-specific skills such as `/telegram:configure`, `/discord:access`, or `/imessage:access`.
+
 ## Repository Structure
 
-- `/plugins` - Internal plugins and generated skill plugins
+- `/skill-plugins` - Internal plugins and generated skill plugins
+- `/external-plugins` - External plugin integrations
+- `/channel-plugins` - Messaging channel plugins
+- `/mcp-plugins` - MCP server plugins
 - `/schemas` - JSON Schema for marketplace validation
 - `.gakrcli-plugin/` - Marketplace configuration and plugin registry
 - `/souls` - Source material used to generate the skill plugins
@@ -175,18 +185,36 @@ Required files are `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`. Co
 - `market-research`
 - `startup-analyst`
 
+### MCP Plugins
+
+- `github-mcp` - GitHub repository, issue, pull request, and search workflows through MCP.
+- `gitlab-mcp` - GitLab repository, merge request, issue, wiki, and CI/CD workflows through MCP.
+- `google-firebase-mcp` - Firebase backend, hosting, auth, Firestore, functions, and storage workflows through MCP.
+- `greptile-mcp` - Greptile AI code review comments and pull request review workflows through MCP.
+- `terraform-mcp` - Terraform and Infrastructure as Code workflows through HashiCorp's Terraform MCP server.
+
+### Channel Plugins
+
+- `discord` - Discord bot channel bridge for routing messages to GAKRCLI.
+- `imessage` - macOS iMessage channel bridge for routing Messages.app conversations to GAKRCLI.
+- `telegram` - Telegram bot channel bridge for routing Telegram messages to GAKRCLI.
+
+### External Plugins
+
+- `playwright` - Playwright browser automation and end-to-end testing MCP integration.
+
 For full plugin descriptions, source paths, keywords, and categories, see `.gakrcli-plugin/marketplace.json`.
 
 ## Contributing
 
 1. Fork this repository.
-2. Add your plugin under `/plugins/{plugin-name}` or `/external_plugins/{plugin-name}`.
+2. Add your plugin under `/skill-plugins`, `/external-plugins`, `/channel-plugins`, or `/mcp-plugins`.
 3. Include `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`.
 4. Update `.gakrcli-plugin/marketplace.json`.
 5. Validate the marketplace JSON against `schemas/gakrcli-marketplace.schema.json`.
 6. Submit a pull request.
 
-Use `/plugins/example-plugin` as the reference implementation.
+Use `/skill-plugins/example-plugin` as the reference implementation.
 
 ## License
 

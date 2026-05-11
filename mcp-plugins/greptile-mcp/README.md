@@ -4,17 +4,23 @@
 
 ## Setup
 
-### 1. Create a Greptile Account
+### 1. Install the Plugin
+
+```bash
+/plugin install greptile-mcp@gakrcli-plugins-official
+```
+
+### 2. Create a Greptile Account
 
 Sign up at [greptile.com](https://greptile.com) and connect your GitHub or GitLab repositories.
 
-### 2. Get Your API Key
+### 3. Get Your API Key
 
 1. Go to [API Settings](https://app.greptile.com/settings/api)
 2. Generate a new API key
 3. Copy the key
 
-### 3. Set Environment Variable
+### 4. Set Environment Variable
 
 Add to your shell profile (`.bashrc`, `.zshrc`, etc.):
 
