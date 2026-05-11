@@ -1,0 +1,7 @@
+﻿{
+    "name":  "github-mcp",
+    "description":  "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub\u0027s full API directly from GAKRCLI.",
+    "author":  {
+                   "name":  "GitHub"
+               }
+}
