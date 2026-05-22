@@ -2,7 +2,7 @@
   "mcpServers": {
     "telegram": {
       "command": "bun",
-      "args": ["run", "--cwd", "${GAKRCLI_PLUGIN_ROOT}", "--shell=bun", "--silent", "start"]
+      "args": ["run", "--cwd", "${GAKR_PLUGIN_ROOT}", "--shell=bun", "--silent", "start"]
     }
   }
 }
