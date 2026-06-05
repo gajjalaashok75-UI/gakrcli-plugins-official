@@ -41,6 +41,8 @@ try {
 
 const TOKEN = process.env.TELEGRAM_BOT_TOKEN
 const STATIC = process.env.TELEGRAM_ACCESS_MODE === 'static'
+const TYPING_PULSE_MS = 4000
+const TYPING_MAX_MS = 60_000
 
 if (!TOKEN) {
   process.stderr.write(
@@ -85,6 +87,37 @@ const PERMISSION_REPLY_RE = /^\s*(y|yes|n|no)\s+([a-km-z]{5})\s*$/i
 
 const bot = new Bot(TOKEN)
 let botUsername = ''
+
+type TypingPulse = {
+  interval: ReturnType<typeof setInterval>
+  timeout: ReturnType<typeof setTimeout>
+}
+
+const typingPulses = new Map<string, TypingPulse>()
+
+function unrefTimer(timer: ReturnType<typeof setInterval> | ReturnType<typeof setTimeout>): void {
+  ;(timer as { unref?: () => void }).unref?.()
+}
+
+function stopTypingPulse(chat_id: string): void {
+  const pulse = typingPulses.get(chat_id)
+  if (!pulse) return
+  clearInterval(pulse.interval)
+  clearTimeout(pulse.timeout)
+  typingPulses.delete(chat_id)
+}
+
+function startTypingPulse(chat_id: string): void {
+  stopTypingPulse(chat_id)
+  void bot.api.sendChatAction(chat_id, 'typing').catch(() => {})
+  const interval = setInterval(() => {
+    void bot.api.sendChatAction(chat_id, 'typing').catch(() => {})
+  }, TYPING_PULSE_MS)
+  const timeout = setTimeout(() => stopTypingPulse(chat_id), TYPING_MAX_MS)
+  unrefTimer(interval)
+  unrefTimer(timeout)
+  typingPulses.set(chat_id, { interval, timeout })
+}
 
 type PendingEntry = {
   senderId: string
@@ -396,6 +429,7 @@ const mcp = new Server(
     },
     instructions: [
       'The sender reads Telegram, not this session. Anything you want them to see must go through the reply tool — your transcript output never reaches their chat.',
+      'When responding to a Telegram-originated message, call reply/edit_message/react as needed and do not add normal assistant prose before or after the Telegram tool call.',
       '',
       'Messages from Telegram arrive as <channel source="telegram" chat_id="..." message_id="..." user="..." ts="...">. If the tag has an image_path attribute, Read that file — it is a photo the sender attached. If the tag has attachment_file_id, call download_attachment with that file_id to fetch the file, then Read the returned path. Reply with the reply tool — pass chat_id back. Use reply_to (set to a message_id) only when replying to an earlier message; the latest message doesn\'t need a quote-reply, omit reply_to for normal responses.',
       '',
@@ -529,6 +563,7 @@ mcp.setRequestHandler(CallToolRequestSchema, async req => {
         const parseMode = format === 'markdownv2' ? 'MarkdownV2' as const : undefined
 
         assertAllowedChat(chat_id)
+        stopTypingPulse(chat_id)
 
         for (const f of files) {
           assertSendable(f)
@@ -588,8 +623,9 @@ mcp.setRequestHandler(CallToolRequestSchema, async req => {
         return { content: [{ type: 'text', text: result }] }
       }
       case 'react': {
-        assertAllowedChat(args.chat_id as string)
-        await bot.api.setMessageReaction(args.chat_id as string, Number(args.message_id), [
+        const chat_id = args.chat_id as string
+        assertAllowedChat(chat_id)
+        await bot.api.setMessageReaction(chat_id, Number(args.message_id), [
           { type: 'emoji', emoji: args.emoji as ReactionTypeEmoji['emoji'] },
         ])
         return { content: [{ type: 'text', text: 'reacted' }] }
@@ -613,11 +649,13 @@ mcp.setRequestHandler(CallToolRequestSchema, async req => {
         return { content: [{ type: 'text', text: path }] }
       }
       case 'edit_message': {
-        assertAllowedChat(args.chat_id as string)
+        const chat_id = args.chat_id as string
+        assertAllowedChat(chat_id)
+        stopTypingPulse(chat_id)
         const editFormat = (args.format as string | undefined) ?? 'text'
         const editParseMode = editFormat === 'markdownv2' ? 'MarkdownV2' as const : undefined
         const edited = await bot.api.editMessageText(
-          args.chat_id as string,
+          chat_id,
           Number(args.message_id),
           args.text as string,
           ...(editParseMode ? [{ parse_mode: editParseMode }] : []),
@@ -650,6 +688,7 @@ function shutdown(exitCode = 0): void {
   if (shuttingDown) return
   shuttingDown = true
   process.stderr.write('telegram channel: shutting down\n')
+  for (const chat_id of typingPulses.keys()) stopTypingPulse(chat_id)
   try {
     if (parseInt(readFileSync(PID_FILE, 'utf8'), 10) === process.pid) rmSync(PID_FILE)
   } catch {}
@@ -946,8 +985,9 @@ async function handleInbound(
     return
   }
 
-  // Typing indicator — signals "processing" until we reply (or ~5s elapses).
-  void bot.api.sendChatAction(chat_id, 'typing').catch(() => {})
+  // Keep Telegram's typing indicator alive while GAKRCLI is processing.
+  // It stops when reply/edit_message sends, delivery fails, or after 60s.
+  startTypingPulse(chat_id)
 
   // Ack reaction — lets the user know we're processing. Fire-and-forget.
   // Telegram only accepts a fixed emoji whitelist — if the user configures
@@ -985,6 +1025,7 @@ async function handleInbound(
       },
     },
   }).catch(err => {
+    stopTypingPulse(chat_id)
     process.stderr.write(`telegram channel: failed to deliver inbound to GAKRCLI: ${err}\n`)
     void ctx.reply(
       'GAKRCLI is not accepting Telegram channel messages in this session. Restart GAKRCLI with:\n\n' +
