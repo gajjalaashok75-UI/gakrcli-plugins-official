@@ -646,7 +646,7 @@ await mcp.connect(new StdioServerTransport())
 // the bot keeps polling forever as a zombie, holding the token and blocking
 // the next session with 409 Conflict.
 let shuttingDown = false
-function shutdown(): void {
+function shutdown(exitCode = 0): void {
   if (shuttingDown) return
   shuttingDown = true
   process.stderr.write('telegram channel: shutting down\n')
@@ -655,14 +655,18 @@ function shutdown(): void {
   } catch {}
   // bot.stop() signals the poll loop to end; the current getUpdates request
   // may take up to its long-poll timeout to return. Force-exit after 2s.
-  setTimeout(() => process.exit(0), 2000)
-  void Promise.resolve(bot.stop()).finally(() => process.exit(0))
+  setTimeout(() => process.exit(exitCode), 2000)
+  try {
+    void Promise.resolve(bot.stop()).finally(() => process.exit(exitCode))
+  } catch {
+    process.exit(exitCode)
+  }
 }
-process.stdin.on('end', shutdown)
-process.stdin.on('close', shutdown)
-process.on('SIGTERM', shutdown)
-process.on('SIGINT', shutdown)
-process.on('SIGHUP', shutdown)
+process.stdin.on('end', () => shutdown())
+process.stdin.on('close', () => shutdown())
+process.on('SIGTERM', () => shutdown())
+process.on('SIGINT', () => shutdown())
+process.on('SIGHUP', () => shutdown())
 
 // Orphan watchdog: stdin events above don't reliably fire when the parent
 // chain (`bun run` wrapper → shell → us) is severed by a crash. Poll for
@@ -991,6 +995,11 @@ bot.catch(err => {
   process.stderr.write(`telegram channel: handler error (polling continues): ${err.error}\n`)
 })
 
+function failPolling(message: string): void {
+  process.stderr.write(`telegram channel: ${message}\n`)
+  shutdown(1)
+}
+
 // Retry polling with backoff on any error. Previously only 409 was retried —
 // a single ETIMEDOUT/ECONNRESET/DNS failure rejected bot.start(), the catch
 // returned, and polling stopped permanently while the process stayed alive
@@ -1014,16 +1023,27 @@ void (async () => {
           ).catch(() => {})
         },
       })
+      if (!shuttingDown) {
+        failPolling('polling stopped unexpectedly; exiting MCP server')
+      }
       return // bot.stop() was called — clean exit from the loop
     } catch (err) {
       if (shuttingDown) return
       // bot.stop() mid-setup rejects with grammy's "Aborted delay" — expected, not an error.
       if (err instanceof Error && err.message === 'Aborted delay') return
       const is409 = err instanceof GrammyError && err.error_code === 409
+      const isBadToken =
+        err instanceof GrammyError &&
+        (err.error_code === 401 || err.error_code === 404)
+      if (isBadToken) {
+        failPolling(
+          `polling failed with Telegram API ${err.error_code}: ${err.description ?? err.message}. Check TELEGRAM_BOT_TOKEN in ${ENV_FILE}`,
+        )
+        return
+      }
       if (is409 && attempt >= 8) {
-        process.stderr.write(
-          `telegram channel: 409 Conflict persists after ${attempt} attempts — ` +
-          `another poller is holding the bot token (stray 'bun server.ts' process or a second session). Exiting.\n`,
+        failPolling(
+          `409 Conflict persists after ${attempt} attempts — another poller is holding the bot token (stray 'bun server.ts' process or a second GAKRCLI session). Exiting MCP server so /mcp shows failed.`,
         )
         return
       }
