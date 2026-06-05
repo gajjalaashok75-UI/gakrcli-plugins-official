@@ -1,11 +1,12 @@
 ﻿{
-    "$schema":  "../schemas/gakrcli-marketplace.schema.json",
     "name":  "gakrcli-plugins-official",
-    "description":  "Directory of GAKRCLI extensions and plugins",
     "owner":  {
                   "name":  "GAKRCLI",
                   "email":  "support@gakrcli.com"
               },
+    "metadata":  {
+                     "description":  "Directory of GAKRCLI extensions and plugins"
+                 },
     "plugins":  [
                     {
                         "name":  "example-plugin",
