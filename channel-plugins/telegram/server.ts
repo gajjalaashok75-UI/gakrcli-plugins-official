@@ -986,6 +986,12 @@ async function handleInbound(
     },
   }).catch(err => {
     process.stderr.write(`telegram channel: failed to deliver inbound to GAKRCLI: ${err}\n`)
+    void ctx.reply(
+      'GAKRCLI is not accepting Telegram channel messages in this session. Restart GAKRCLI with:\n\n' +
+      'node dist/cli.mjs --channels plugin:telegram@gakrcli-plugins-official',
+    ).catch(replyErr => {
+      process.stderr.write(`telegram channel: failed to send delivery failure reply: ${replyErr}\n`)
+    })
   })
 }
 
