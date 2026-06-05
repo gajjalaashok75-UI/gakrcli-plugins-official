@@ -48,6 +48,21 @@ The server won't connect without this — exit your session and start a new one:
 gakrcli --channels plugin:telegram@gakrcli-plugins-official
 ```
 
+If you are running from the GAKRCLI repository checkout instead of the globally installed `gakrcli` command, use:
+
+```sh
+node dist/cli.mjs --channels plugin:telegram@gakrcli-plugins-official
+```
+
+After installing or updating the plugin inside an already running session, run:
+
+```text
+/reload-plugins
+/mcp
+```
+
+`/mcp` should show `Plugin:telegram:telegram MCP Server` as connected.
+
 **5. Pair.**
 
 With GAKRCLI running from the previous step, DM your bot on Telegram — it replies with a 6-character pairing code. If the bot doesn't respond, make sure your session is running with `--channels`. In your GAKRCLI session:

@@ -67,6 +67,20 @@ You can also ask GAKRCLI to use the installed skill or launch the matching agent
 
 MCP plugins include `.mcp.json` files that connect GAKRCLI to external MCP servers. Channel plugins also include `.mcp.json` plus channel-specific skills such as `/telegram:configure`, `/discord:access`, or `/imessage:access`. External plugins may provide MCP integrations, standalone skills, scripts, or report templates depending on the plugin.
 
+Channel plugins need an explicit terminal startup flag so inbound messages can reach the active GAKRCLI session. For the official Telegram channel, start GAKRCLI with:
+
+```bash
+gakrcli --channels plugin:telegram@gakrcli-plugins-official
+```
+
+When running from a local checkout during development, use the built CLI directly:
+
+```bash
+node dist/cli.mjs --channels plugin:telegram@gakrcli-plugins-official
+```
+
+Then use `/reload-plugins` after installing or updating plugins, and check `/mcp` to confirm the channel MCP server is connected.
+
 ## Repository Structure
 
 - `/skill-plugins` - Internal plugins and generated skill plugins
