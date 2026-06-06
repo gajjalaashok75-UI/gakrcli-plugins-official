@@ -49,7 +49,6 @@ Examples:
 /plugin install telegram@gakrcli-plugins-official
 /plugin install playwright@gakrcli-plugins-official
 /plugin install session-report@gakrcli-plugins-official
-/plugin install understand-anything@gakrcli-plugins-official
 ```
 
 Generated skill plugins include the same entry points:
@@ -219,7 +218,6 @@ Required files are `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`. Co
 
 - `playwright` - Playwright browser automation and end-to-end testing MCP integration.
 - `session-report` - Interactive HTML report for local GAKRCLI session usage, token, cache, and prompt analytics.
-- `understand-anything` - AI-powered codebase understanding with analysis, knowledge graphs, architecture views, onboarding, and dashboard support.
 
 For full plugin descriptions, source paths, keywords, and categories, see `.gakrcli-plugin/marketplace.json`.
 
