@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "gakrcli-plugins-official",
     "owner":  {
                   "name":  "GAKRCLI",
@@ -1344,6 +1344,25 @@
                                          "gakrcli",
                                          "threejs",
                                          "atlas"
+                                     ]
+                    },
+                    {
+                        "name":  "understand-anything",
+                        "description":  "AI-powered codebase understanding — analyze, visualize, and explain any project",
+                        "version":  "2.7.6",
+                        "author":  {
+                                       "name":  "gajjalaashok75-UI"
+                                   },
+                        "category":  "development",
+                        "source":  "./external-plugins/understand-anything",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/external-plugins/understand-anything",
+                        "keywords":  [
+                                         "understand-anything",
+                                         "codebase-analysis",
+                                         "knowledge-graph",
+                                         "architecture",
+                                         "onboarding",
+                                         "dashboard"
                                      ]
                     },
                     {

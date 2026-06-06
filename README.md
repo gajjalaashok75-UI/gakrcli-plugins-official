@@ -24,11 +24,11 @@ Requirements: Node.js 20 or newer, plus `ripgrep` / `rg` in your PATH. The main 
 
 ## Marketplace Stats
 
-- **76 plugins** available
+- **77 plugins** available
 - **66 skill plugins** generated from the souls library
 - **5 MCP plugins** for external services and developer platforms
 - **3 channel plugins** for messaging bridges
-- **2 external plugins**
+- **3 external plugins**
 - Marketplace metadata is tracked in `.gakrcli-plugin/marketplace.json`
 
 ## How To Use
@@ -49,6 +49,7 @@ Examples:
 /plugin install telegram@gakrcli-plugins-official
 /plugin install playwright@gakrcli-plugins-official
 /plugin install session-report@gakrcli-plugins-official
+/plugin install understand-anything@gakrcli-plugins-official
 ```
 
 Generated skill plugins include the same entry points:
@@ -218,6 +219,7 @@ Required files are `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`. Co
 
 - `playwright` - Playwright browser automation and end-to-end testing MCP integration.
 - `session-report` - Interactive HTML report for local GAKRCLI session usage, token, cache, and prompt analytics.
+- `understand-anything` - AI-powered codebase understanding with analysis, knowledge graphs, architecture views, onboarding, and dashboard support.
 
 For full plugin descriptions, source paths, keywords, and categories, see `.gakrcli-plugin/marketplace.json`.
 
