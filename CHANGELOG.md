@@ -4,6 +4,9 @@ All notable changes to the official GakrCLI plugin marketplace will be documente
 
 ## [Unreleased]
 
+### Added
+- Added the `fakechat` channel plugin for testing GAKRCLI channel delivery, replies, edits, and file uploads through a localhost web UI.
+
 ### Fixed
 - Made the official marketplace manifest pass GakrCLI's plugin validator by moving the marketplace description into supported metadata.
 - Ignored plugin `node_modules/` directories so channel MCP runtime dependency installs do not dirty the source checkout.

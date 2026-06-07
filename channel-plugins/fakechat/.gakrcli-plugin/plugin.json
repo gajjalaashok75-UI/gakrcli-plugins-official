@@ -1,0 +1,22 @@
+{
+  "name": "fakechat",
+  "description": "Localhost web chat channel for GAKRCLI — testing bridge with file uploads, replies, and message edits. No external service, tokens, or access control.",
+  "version": "0.1.0",
+  "author": {
+    "name": "GAKRCLI",
+    "email": "support@gakrcli.com"
+  },
+  "keywords": [
+    "fakechat",
+    "channel",
+    "messaging",
+    "testing",
+    "mcp"
+  ],
+  "homepage": "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/channel-plugins/fakechat",
+  "category": "productivity",
+  "tags": [
+    "channel",
+    "productivity"
+  ]
+}

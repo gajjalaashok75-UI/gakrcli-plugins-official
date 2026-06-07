@@ -27,8 +27,8 @@ Requirements: Node.js 20 or newer, plus `ripgrep` / `rg` in your PATH. The main 
 - **77 plugins** available
 - **66 skill plugins** generated from the souls library
 - **5 MCP plugins** for external services and developer platforms
-- **3 channel plugins** for messaging bridges
-- **3 external plugins**
+- **4 channel plugins** for messaging bridges
+- **2 external plugins**
 - Marketplace metadata is tracked in `.gakrcli-plugin/marketplace.json`
 
 ## How To Use
@@ -47,6 +47,7 @@ Examples:
 /plugin install vercel-deploy@gakrcli-plugins-official
 /plugin install github-mcp@gakrcli-plugins-official
 /plugin install telegram@gakrcli-plugins-official
+/plugin install fakechat@gakrcli-plugins-official
 /plugin install playwright@gakrcli-plugins-official
 /plugin install session-report@gakrcli-plugins-official
 ```
@@ -211,6 +212,7 @@ Required files are `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`. Co
 ### Channel Plugins
 
 - `discord` - Discord bot channel bridge for routing messages to GAKRCLI.
+- `fakechat` - Localhost web chat channel for testing GAKRCLI channel delivery, replies, edits, and file uploads without an external service.
 - `imessage` - macOS iMessage channel bridge for routing Messages.app conversations to GAKRCLI.
 - `telegram` - Telegram bot channel bridge for routing Telegram messages to GAKRCLI.
 
