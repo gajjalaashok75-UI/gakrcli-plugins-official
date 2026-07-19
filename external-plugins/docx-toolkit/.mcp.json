@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "docx-toolkit": {
+      "command": "npm",
+      "args": ["run", "--prefix", "${GAKR_PLUGIN_ROOT}", "--silent", "start"],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

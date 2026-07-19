@@ -5,6 +5,8 @@ All notable changes to the official GakrCLI plugin marketplace will be documente
 ## [Unreleased]
 
 ### Added
+- Added the `docx-toolkit` external MCP plugin for creating, reading, and editing Word (.docx) documents with a full MCP server (docx_create/docx_read/docx_edit/docx_lint/docx_help) and CLI script fallback.
+- Added the `pdf-toolkit` external MCP plugin for creating, reading, and editing PDF documents with a full MCP server (pdf_create/pdf_read/pdf_edit/pdf_lint/pdf_help) and CLI script fallback.
 - Added the `fakechat` channel plugin for testing GAKRCLI channel delivery, replies, edits, and file uploads through a localhost web UI.
 
 ### Fixed

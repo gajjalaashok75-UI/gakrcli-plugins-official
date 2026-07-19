@@ -1,0 +1,23 @@
+{
+  "name": "pdf-toolkit",
+  "description": "Create, read, and edit PDF documents -- headings, formatting, tables, images, hyperlinks, headers/footers, page setup, merging, splitting, rotating, watermarks, page numbers, and encryption. Exposes an MCP server (pdf_create/pdf_read/pdf_edit/pdf_lint/pdf_help) plus CLI script fallback.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Khaja",
+    "email": ""
+  },
+  "keywords": [
+    "pdf",
+    "document",
+    "office",
+    "mcp"
+  ],
+  "homepage": "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/external-plugins/pdf-toolkit",
+  "category": "productivity",
+  "tags": [
+    "external",
+    "productivity",
+    "documents",
+    "mcp"
+  ]
+}

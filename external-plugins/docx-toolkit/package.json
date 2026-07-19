@@ -1,0 +1,20 @@
+{
+  "name": "gakrcli-skill-docx-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Create, read, and edit Word (.docx) files -- MCP server (docx_create/docx_read/docx_edit/docx_lint/docx_help) plus CLI script fallback.",
+  "type": "commonjs",
+  "main": "server.js",
+  "bin": {
+    "docx-toolkit-mcp": "./bin/bootstrap.js"
+  },
+  "scripts": {
+    "start": "node bin/bootstrap.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "docx": "^9.7.1",
+    "jszip": "^3.10.1",
+    "zod": "^4.4.3"
+  }
+}

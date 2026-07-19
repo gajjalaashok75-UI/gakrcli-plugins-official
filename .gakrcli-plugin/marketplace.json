@@ -346,6 +346,24 @@
                                      ]
                     },
                     {
+                        "name":  "docx-toolkit",
+                        "description":  "Create, read, and edit Word (.docx) documents -- headings, formatting, colors, tables, images, hyperlinks, headers/footers, page setup, bookmarks, fields, watermarks, and review comments. Exposes an MCP server (docx_create/docx_read/docx_edit/docx_lint/docx_help) plus CLI script fallback.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "Khaja"
+                                   },
+                        "category":  "productivity",
+                        "source":  "./external-plugins/docx-toolkit",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/external-plugins/docx-toolkit",
+                        "keywords":  [
+                                         "docx",
+                                         "word",
+                                         "document",
+                                         "office",
+                                         "mcp"
+                                     ]
+                    },
+                    {
                         "name":  "docs-architect",
                         "description":  "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
                         "version":  "1.0.0",
@@ -1102,6 +1120,23 @@
                                          "browser",
                                          "automation",
                                          "testing",
+                                         "mcp"
+                                     ]
+                    },
+                    {
+                        "name":  "pdf-toolkit",
+                        "description":  "Create, read, and edit PDF documents -- headings, formatting, tables, images, hyperlinks, headers/footers, page setup, merging, splitting, rotating, watermarks, page numbers, and encryption. Exposes an MCP server (pdf_create/pdf_read/pdf_edit/pdf_lint/pdf_help) plus CLI script fallback.",
+                        "version":  "1.0.0",
+                        "author":  {
+                                       "name":  "Khaja"
+                                   },
+                        "category":  "productivity",
+                        "source":  "./external-plugins/pdf-toolkit",
+                        "homepage":  "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/external-plugins/pdf-toolkit",
+                        "keywords":  [
+                                         "pdf",
+                                         "document",
+                                         "office",
                                          "mcp"
                                      ]
                     },

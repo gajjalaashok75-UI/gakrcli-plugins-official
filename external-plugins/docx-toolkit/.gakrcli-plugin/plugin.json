@@ -1,0 +1,24 @@
+{
+  "name": "docx-toolkit",
+  "description": "Create, read, and edit Word (.docx) documents -- headings, formatting, colors, tables, images, hyperlinks, headers/footers, page setup, bookmarks, fields, watermarks, and review comments. Exposes an MCP server (docx_create/docx_read/docx_edit/docx_lint/docx_help) plus CLI script fallback.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Khaja",
+    "email": ""
+  },
+  "keywords": [
+    "docx",
+    "word",
+    "document",
+    "office",
+    "mcp"
+  ],
+  "homepage": "https://github.com/gajjalaashok75-UI/gakrcli-plugins-official/tree/main/external-plugins/docx-toolkit",
+  "category": "productivity",
+  "tags": [
+    "external",
+    "productivity",
+    "documents",
+    "mcp"
+  ]
+}

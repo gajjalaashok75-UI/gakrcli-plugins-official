@@ -24,11 +24,11 @@ Requirements: Node.js 20 or newer, plus `ripgrep` / `rg` in your PATH. The main 
 
 ## Marketplace Stats
 
-- **77 plugins** available
+- **79 plugins** available
 - **66 skill plugins** generated from the souls library
 - **5 MCP plugins** for external services and developer platforms
 - **4 channel plugins** for messaging bridges
-- **2 external plugins**
+- **4 external plugins**
 - Marketplace metadata is tracked in `.gakrcli-plugin/marketplace.json`
 
 ## How To Use
@@ -50,6 +50,8 @@ Examples:
 /plugin install fakechat@gakrcli-plugins-official
 /plugin install playwright@gakrcli-plugins-official
 /plugin install session-report@gakrcli-plugins-official
+/plugin install docx-toolkit@gakrcli-plugins-official
+/plugin install pdf-toolkit@gakrcli-plugins-official
 ```
 
 Generated skill plugins include the same entry points:
@@ -220,6 +222,8 @@ Required files are `.gakrcli-plugin/plugin.json`, `README.md`, and `LICENSE`. Co
 
 - `playwright` - Playwright browser automation and end-to-end testing MCP integration.
 - `session-report` - Interactive HTML report for local GAKRCLI session usage, token, cache, and prompt analytics.
+- `docx-toolkit` - Create, read, and edit Word (.docx) documents with MCP tools for document generation and manipulation.
+- `pdf-toolkit` - Create, read, and edit PDF documents with MCP tools for document generation, editing, and encryption.
 
 For full plugin descriptions, source paths, keywords, and categories, see `.gakrcli-plugin/marketplace.json`.
 
